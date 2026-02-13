@@ -277,21 +277,22 @@ article p {
     list-style: none;
 
 }
-
 .bullet-list li {
-    display: flex;
-    align-items: flex-start; 
-    margin-bottom: 0rem;
+display: block;              /* Changed from flex to block */
     position: relative;
-
+    padding-left: 1.5rem;        /* This creates the 'reserved' space for the arrow */
+    margin-bottom: 0.2rem;
+    line-height: 1.2;
+    text-align: left;
 }
-
 .bullet-list li::before {
     content: "→";
     color: var(--accent-color);
     margin-right: 0.8rem;
-    font-weight: bold;
     flex-shrink: 0;
+    position: absolute;
+    left:0;
+    top:0;
 }
 /* --- Checkbox Styling --- */
 .checklist {
