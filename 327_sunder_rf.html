@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunder to RF Guide - MUZARONI ARCHIVE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <nav class="sidenav" id="nav-placeholder"></nav>
+
+<main class="content-wrapper">
+<div class="content-inner">
+<article>
+<h1>3.27 Sunder Leveling into RF Swap</h1>
+<p>Updated: Feb 11, 2026</p>
+<div class="note-block">
+    <i><p>This guide adapts <a href="https://pohx.net/">Pohx’s RF</a> by using Sunder for leveling instead of the traditional caster approach. Play Sunder until Level 52-55, then use the free campaign respec and gold at Blood Aqueducts to hard-swap into Righteous Fire and follow Pohx's instructions.
+        This approach allows you to level significantly quicker while still transitioning smoothly into the powerful RF setup once you reach maps.
+    </p></i>
+</div>
+
+<!------------------ POB ------------------>
+<h2 id="pob">POB Links</h2>
+<ul>
+<li><span style="color: #f2ff37;">3.27 Guide POB</span>: <a href="https://pobb.in/FkhZiFT0WE4O" target="_blank">CLICK HERE FOR POBB.IN</a> <span style="color: #f2ff37;">USE THIS</span></li>
+<li>3.26 Day 2 POB: <a href="https://pobb.in/GaPzv7hRoc9y" target="_blank">LV 94 Starter</a> </li>
+<li>3.26 Day 3 POB: <a href="https://pobb.in/h3DDjaATOe06" target="_blank">LV 95 MB Swap</a> </li>
+<li>3.26 Day 5 POB: <a href="https://pobb.in/bYrTsYELAH7e" target="_blank">LV 98 Dawnbreaker + Stormshroud</a> </li>
+<li>3.26 Day 7 POB: <a href="https://pobb.in/muvlA8bo3mGJ" target="_blank">LV 99 Crafted shield</a> </li>
+<li>3.26 Day 9 POB: <a href="https://pobb.in/GZ8yhzUkKXoi" target="_blank">LV 99 Svalinn swap</a> </li>
+</ul><hr>
+<!------------------ REGEX ------------------>
+<h2 id="pob">REGEX</h2>
+<div class="code-container">
+    <div class="code-header">
+        <span>Gear Regex - works for full campaign</span>
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <pre><code>-\w-.-|r-r-r|g-[gr]-r|r-[gr]-g|g-r-g|r-g-r|Runn|s:.+ax</code></pre>
+</div>
+
+<div class="code-container">
+    <div class="code-header">
+        <span>Gem Regex for only Acts 1-3</span>
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <pre><code>"stbl|mida|omen|jade| pur|er att|ood r|determ|y of f"</code></pre>
+</div>
+
+
+<!------------------ ACT 1 ------------------>
+<hr>
+<h2 id="a1">ACT 1 Progression</h2>
+<h3>End of Act 1: 20-23 mins - LEVEL 12</h3>
+<p> </p>
+<img src="327_sunder/images/act1.png">
+<p>Starting gems: <span class="gems gem-red">Heavy Strike</span>+<span class="gems gem-red">Ruthless</span></p>
+<p>Ensure you have <span class="gems gem-red">R-R</span> linked somewhere before leaving town</p>
+
+<div class="note-block">
+  <i>Below are all breakpoints by monster, after each name go to town and get the items listed.</i>
+</div>
+<h3>Tarkleigh</h3>
+    <ul class="checklist">
+        <li><input type="checkbox"> Get <span class="gems gem-red">Ground Slam</span> (left gem) → Replace <span class="gems gem-red">Heavy Strike</span></li>
+        <li><input type="checkbox"> Buy <span class="gems gem-grey">Stone Axe</span>for cheap</li>
+        <li><input type="checkbox"> Buy any <span class="gems gem-red">R-R</span> linked</li>
+        <li><input type="checkbox"> Pick up any shield and put on off-hand for <span class="gems gem-red">Shield Charge</span> at level 4</li>
+    </ul>
+
+<h3>Hailrake</h3>
+    <ul class="checklist">
+        <li><input type="checkbox"> Get <span class="gems gem-grey">Quicksilver</span></li>
+        <li><input type="checkbox"> Get <span class="gems gem-red">Decoy Totem</span> <span style="color: grey;">[optional]</span></li>
+        <li><input type="checkbox"> Get <span class="gems gem-red">Shield Charge</span></li>
+        <li><input type="checkbox"> Get <span class="gems gem-red">Chance to Bleed</span> or <span class="gems gem-green">Momentum</span></li>
+        <ul><ul class="custom-list bullet-list"><li>I personally take <span class="gems gem-green">Momentum</span> to link with <span class="gems gem-red">Shield Charge</span></li></li></ul></ul>
+        <li><input type="checkbox"> Buy <span class="gems gem-grey">Jade Amulet / Iron Ring</span> 3x<img src="/images/wisdom.png" width="25">each</li>
+        <li><input type="checkbox"> Buy <span class="gems gem-blue">Frostblink</span><img src="/images/wisdom.png" width="25"></li>
+        <li><input type="checkbox"> Buy <span class="gems gem-green">Momentum</span> or <span class="gems gem-red">Chance to Bleed</span><img src="/images/wisdom.png" width="25"></li>
+        <li><input type="checkbox"> Buy <span class="gems gem-red">Blood & Sand</span><img src="/images/wisdom.png" width="25"></li>
+    </ul>
+
+<h3>Dweller</h3>
+    <ul class="checklist">
+     <li><input type="checkbox"> Get <span class="gems gem-green">Faster Attack</span></li>
+     <li><input type="checkbox"> Buy 1-2x <span class="gems gem-grey">Iron rings</span> and 2x <span class="gems gem-blue">mana pots</span> to make Brutus much easier</li>
+    </ul>
+
+<h3>Brutus</h3>
+    <ul class="checklist">
+        <li><input type="checkbox"> Get <span class="gems gem-red">Leap Slam</span></li>
+        <li><input type="checkbox"> Buy <span class="gems gem-red">Intimidating Cry</span><img src="/images/trans.png" width="25"></li>
+    </ul>
+
+<h3>Fairgraves (Enter Caverns)</h3>
+    <ul class="checklist">
+        <li><input type="checkbox"> Get <span class="gems gem-red">Sunder</span></li>
+    </ul>
+
+<div class="link-block" id="a1-links">
+<h3>Level 1-9: Use Ground Slam</h3>
+    <ul class="checklist">
+        <li><input type="checkbox">Link 1: <span class="gems gem-red">Ground Slam</span> + <span class="gems gem-red">Ruthless</span> + <span class="gems gem-red">Chance to Bleed</span> or <span class="gems gem-green">Momentum</span></li>
+        <li><input type="checkbox">Link 2: <span class="gems gem-red">Shield Charge</span> + <span class="gems gem-green">Momentum</span></li>
+        <li><input type="checkbox">Util: <span class="gems gem-blue">Frostblink</span>, <span class="gems gem-red">Blood & Sand</span>, <span class="gems gem-red">Intimidating Cry</span></li>
+    </ul>
+
+<h3>Level 10: Replace Shield Charge with Leap Slam</span></h3>
+    <ul class="checklist">
+        <li><input type="checkbox">Link 2: <span class="gems gem-red">Leap Slam</span> + <span class="gems gem-green">Faster Attacks</span></li>
+    </ul>
+
+<h3>Level 12: Mervail</h3>
+    <ul class="checklist">
+        <li><input type="checkbox">Link 1: <span class="gems gem-red">Sunder</span> + <span class="gems gem-red">Ruthless</span> + <span class="gems gem-red">Chance to Bleed</span> or <span class="gems gem-green">Momentum</span></li>
+        <li><input type="checkbox">Link 2: <span class="gems gem-red">Leap Slam</span> + <span class="gems gem-green">Faster Attacks</span> + <span class="gems gem-green">Momentum</span></li>
+        <li><input type="checkbox">Util: <span class="gems gem-blue">Frostblink</span>, <span class="gems gem-red">Blood & Sand</span>, <span class="gems gem-red">Intimidating Cry</span></li>
+    </ul>
+
+Total cost: 1 Transmute<img src="/images/trans.png" width="25" style="vertical-align: middle ;">, 3+ Wisdoms <img src="/images/wisdom.png" width="25" style="vertical-align: middle ;">
+</div>
+<hr>
+
+<!------------------ ACT 2 ------------------>
+<h2 id="a2">ACT 2</h2>
+<h3>End of Act 2: 38-40 mins, Level 20</h3>
+<img src="327_sunder/images/act2.png">
+<h3>Fidelitas</h3>
+    <ul class="checklist">
+        <li><input type="checkbox"> Get <span class="gems gem-red">Herald of Ash</span></li>
+        <li><input type="checkbox"> Buy <span class="gems gem-green">Blood Rage</span><img src="/images/alt.png" width="25"></li>
+        <li><input type="checkbox"> Buy <span class="gems gem-red">Herald of Purity</span><img src="/images/alt.png" width="25"> <span style="color: grey;">[optional]</span></li>
+        <li><input type="checkbox"> Buy <span class="gems gem-grey">Jade Amulet</span>3x<img src="/images/wisdom.png" width="25"> </li> 
+    </ul>
+<h3>Weaver</h3>
+    <ul class="checklist">
+        <li><input type="checkbox"> Get <span class="gems gem-red">Melee Physical Damage</span></li>
+    </ul>
+
+<div class="link-block" id="a2-links">
+    <ul class="checklist">
+        <li><input type="checkbox">Link 1: <span class="gems gem-red">Sunder</span> + <span class="gems gem-red">Melee Physical Damage</span> + <span class="gems gem-red">Ruthless</span> or <span class="gems gem-green">Close Combat</span></li>
+        <li><input type="checkbox">Link 2: <span class="gems gem-red">Leap Slam</span> + <span class="gems gem-green">Faster Attacks</span> + <span class="gems gem-green">Momentum</span></li>
+        <li><input type="checkbox">Aura: <span class="gems gem-red">Herald of Ash</span></li>
+        <li><input type="checkbox">Util: <span class="gems gem-blue">Frostblink</span>, <span class="gems gem-red">Blood & Sand</span>, <span class="gems gem-red">Intimidating Cry</span>, <span class="gems gem-green">Blood Rage</span></li>
+    </ul>
+
+Total cost: 1-2 Alterations<img src="/images/alt.png" width="25" style="vertical-align: middle ;">, 3 Wisdoms <img src="/images/wisdom.png" width="25"style="vertical-align: middle ;">
+</div>
+<hr>
+
+<!------------------ ACT 3 ------------------>
+<h2 id="a3">ACT 3 Progression</h2>
+<h3>End of Act 3: 55-60 mins, Level 28-30</h3>
+<div class="note-block">
+<i>You can gamble at <span style="color: #ca6f07;">Maramoa</span> at level 24 for 4 Links. Focus on armor since it's used longer than weapons. <span style="color: #ff3333;">DO NOT OVER SPEND</span> as you will need gold later to respec to RF in Act 9</li>
+<ul class="custom-list bullet-list">
+    <li>2H Axe / body armor: <span style="color: #ffee00;margin-left: 10px;">145 gold each</span></li>
+    <li>Gloves / Helmet / Boots: <span style="color: #ffee00; margin-left: 10px;">135 gold each</span><span style="color: #ff3333;margin-left: 10px;">< BETTER OPTION</span></li>
+</i></ul>
+</div>
+<img src="327_sunder/images/act3.png">
+
+<h3>Piety</h3>
+    <ul class="checklist">
+        <li><input type="checkbox"> Get <span class="gems gem-red">Vulnerability</span></li>
+    </ul>
+
+<div class="link-block" id="a3-links">
+    <ul class="checklist">
+        <li><input type="checkbox">Link 1: <span class="gems gem-red">Sunder</span> + <span class="gems gem-red">Melee Physical Damage</span> + <span class="gems gem-red">Ruthless</span> + <span class="gems gem-red">Cruelty</span>or <span class="gems gem-green">Close Combat</span></li>
+        <li><input type="checkbox">Link 2: <span class="gems gem-red">Leap Slam</span> + <span class="gems gem-green">Faster Attacks</span> + <span class="gems gem-green">Momentum</span></li>
+        <li><input type="checkbox">Aura: <span class="gems gem-red">Herald of Ash</span></li>
+        <li><input type="checkbox">Util: <span class="gems gem-blue">Frostblink</span>, <span class="gems gem-red">Blood & Sand</span>, <span class="gems gem-red">Intimidating Cry</span>, <span class="gems gem-green">Blood Rage</span>, <span class="gems gem-red">Vulnerability</span></li>
+    </ul>
+Total Cost: None
+</div>
+<hr>
+
+<!------------------ ACT 4 ------------------>
+<h2 id="a4">ACT 4 Progression</h2>
+<h3>End of Act 4: 1h20, Level 35</h3>
+<div class="note-block">
+<i>
+  <p>Do Normal Lab once you reach <span style="color: #ca6f07;">Crystal Veins</span> waypoint</p>
+  <p>Take Chieftain - <span style="color: #ca6f07;">Tasalio, Cleansing Water</span> for first ascendancy</p>
+</i>
+</div>
+<img src="327_sunder/images/act4.png">
+
+<h3>Malachai</h3>
+    <ul class="checklist">
+        <li><input type="checkbox"> Get <span class="gems gem-red">Fist of War</span> replace <span class="gems gem-red">Cruelty</span> or <span class="gems gem-green">Close Combat</span></li>
+    </ul>
+
+<div class="link-block" id="a4-links">
+    <ul class="checklist">
+        <li><input type="checkbox">Link 1: <span class="gems gem-red">Sunder</span> + <span class="gems gem-red">Melee Physical Damage</span> + <span class="gems gem-red">Ruthless</span> + <span class="gems gem-red">Fist of War</span></li>
+        <li><input type="checkbox">Link 2: <span class="gems gem-red">Leap Slam</span> + <span class="gems gem-green">Faster Attacks</span> + <span class="gems gem-green">Momentum</span></li>
+        <li><input type="checkbox">Aura: <span class="gems gem-red">Herald of Ash</span></li>
+        <li><input type="checkbox">Util: <span class="gems gem-blue">Frostblink</span>, <span class="gems gem-red">Blood & Sand</span>, <span class="gems gem-red">Intimidating Cry</span>, <span class="gems gem-green">Blood Rage</span>, <span class="gems gem-red">Vulnerability</span></li>
+    </ul>
+Total Cost: None
+</div>
+<hr>
+
+<!------------------ ACT 5 ------------------>
+<h2 id="a5">ACT 5 Progression</h2>
+<h3>End of Act 5: 1h35, Level 40</h3>
+<div class="note-block">
+<i>
+  <p>Act 5-9 will keep the same gem links until the respec at Blood Aqueducts in A9</p>
+</i>
+</div>
+<img src="327_sunder/images/act5.png">
+
+<div class="link-block" id="a5-links">
+    <ul class="checklist">
+        <li><input type="checkbox">Link 1: <span class="gems gem-red">Sunder</span> + <span class="gems gem-red">Melee Physical Damage</span> + <span class="gems gem-red">Ruthless</span> + <span class="gems gem-red">Fist of War</span></li>
+        <li><input type="checkbox">Link 2: <span class="gems gem-red">Leap Slam</span> + <span class="gems gem-green">Faster Attacks</span> + <span class="gems gem-green">Momentum</span></li>
+        <li><input type="checkbox">Aura: <span class="gems gem-red">Herald of Ash</span></li>
+        <li><input type="checkbox">Util: <span class="gems gem-blue">Frostblink</span>, <span class="gems gem-red">Blood & Sand</span>, <span class="gems gem-red">Intimidating Cry</span>, <span class="gems gem-green">Blood Rage</span>, <span class="gems gem-red">Vulnerability</span></li>
+    </ul>
+Total Cost: None
+</div>
+<hr>
+
+<!------------------ ACT 6 ------------------>
+<h2 id="a6">ACT 6 Progression</h2>
+<h3>End of Act 6: 2h, Level 45</h3>
+<div class="note-block">
+<i>
+  <p>After killing <span style="color: #ca6f07;">Shavronne</span> take <span style="color: #ff3333;">helmet reward</span> which matches RF or FT base armor from <span style="color: #ca6f07;">Sin</span> in town. Check wiki if needed: <a href="https://www.poewiki.net/wiki/Essence_of_Umbra" target="_blank">Essence of Umbra Quest</a></p>
+</i>
+</div>
+<img src="327_sunder/images/act6.png">
+
+<div class="note-block" id="a6-buy">
+    <i><p>Buy these 6 gems from act 6 to level off hand for respec at lvl 55 in BA</p></i>  
+</div>
+    <ul class="checklist">
+        <li><input type="checkbox"><span class="gems gem-green">Fire Trap</span> <img src="/images/trans.png" width="25" style="vertical-align: middle ;">
+        <li><input type="checkbox"><span class="gems gem-green">Swift Assembly</span><img src="/images/wisdom.png" width="25" style="vertical-align: middle ;">
+        <li><input type="checkbox"><span class="gems gem-green">Trap & Mine Damage</span> <img src="/images/alt.png" width="25" style="vertical-align: middle ;">
+        <li><input type="checkbox"><span class="gems gem-blue">Elemental Focus</span><img src="/images/alt.png" width="25" style="vertical-align: middle ;">
+        <li><input type="checkbox"><span class="gems gem-red">Malevolence</span><img src="/images/alt.png" width="25" style="vertical-align: middle ;">
+        <li><input type="checkbox"><span class="gems gem-red">Burning Damage</span><img src="/images/chance.png" width="25" style="vertical-align: middle ;">
+        </li>
+    </ul>
+Total cost: 1 Transmute <img src="/images/trans.png" width="25"style="vertical-align: middle ;">, 3 Alterations<img src="/images/alt.png" width="25" style="vertical-align: middle ;">, 
+1 Wisdom <img src="/images/wisdom.png" width="25"style="vertical-align: middle ;">, 1 Chance <img src="/images/chance.png" width="25"style="vertical-align: middle ;">
+<hr>
+
+<!------------------ ACT 7 ------------------>
+<h2 id="a7">ACT 7 Progression</h2>
+<h3>End of Act 7: 2h15, Level 49</h3>
+<div class="note-block">
+<i>
+  <p>After killing <span style="color: #ca6f07;">Maligaro</span> take <span style="color: #ff3333;">boot reward</span> reward which matches RF or FT base armor from <span style="color: #ca6f07;">Helena</span> in town. Check wiki if needed: <a href="https://www.poewiki.net/wiki/Essence_of_the_Artist" target="_blank">Essence of the Artist Quest</a></p>
+</i>
+</div>
+<img src="327_sunder/images/act7.png">
+<div class="note-block">
+<i><ul class="custom-list bullet-list">
+<p><li>Start looking for scepters and shields and links for RF swap</li>
+<p><li>Finding appropriate armor bases will make it easier to color</p></li>
+</i></ul></div>
+<ul class="checklist">
+    <li><input type="checkbox">Righteous Fire -<span class="gems gem-blue">B</span><span class="gems gem-blue">B</span><span class="gems gem-blue">B</span><span class="gems gem-red">R</span>- Armor/ES Base <span style="color: #ff3333;margin-left: 10px;">Can get from A6/A7 reward</span></li>
+    <li><input type="checkbox">Fire Trap -<span class="gems gem-green">G</span><span class="gems gem-green">G</span><span class="gems gem-green">G</span><span class="gems gem-red">R</span>- EV Base <span style="color: #ff3333;margin-left: 10px;">Can get from A6/A7 reward</span></li>
+    <li><input type="checkbox">Curse -<span class="gems gem-blue">B</span><span class="gems gem-blue">B</span><span class="gems gem-blue">B</span><span class="gems gem-red">R</span>- Armor/ES Base</li>
+    <li><input type="checkbox">Movement - <span class="gems gem-green">G</span><span class="gems gem-green">G</span><span class="gems gem-red">R</span><span class="gems gem-blue">B</span>- EV/AR Base</li>
+    </li>
+</ul>  
+<hr>
+
+<!------------------ ACT 8 ------------------>
+<h2 id="a8">ACT 8 Progression</h2>
+<h3>End of Act 8: 2h30, Level 52</h3>
+<div class="note-block">
+<i>
+  <p>Tree below is what you should have going from act 1 to end of act 8 (blood aqueducts)</p>
+</i>
+</div>
+<img src="327_sunder/images/act8.png">
+<hr>
+<!------------------ BA RESPEC ------------------>
+<h2 id="ba">L52 Respec @ BA</h2>
+<h3>Time at BA: 2h30, Level 52</h3>
+<div class="note-block">
+<i><ul class="custom-list bullet-list">
+<p><li>Use Campaign respec points first (~ 14 pts)</li>
+<p><li>Can get 16 pts if you do Fetid Pool</p></li>
+<p><li>Spend gold to finish the respec according to tree below</p></li>
+<p><li>Remove RED and take GREEN on tree below</p></li>
+</i></ul></div>
+<img src="327_sunder/images/final.png">
+<div class="note-block">
+<i><ul class="custom-list bullet-list">
+    <li> 26 point respec required = 16 from campaign + 10 from gold</li>
+    <ul><li>10 pts @ 313 gold ea (lvl52) = 3130 gold</li></ul>
+    <ul><li>On test run (lvl52 @ BA) I ended with 7282 gold after doing 3 armor gamble at lvl 24 to get one 4 link</li></ul>
+    <ul><li>After 26 pt respec I ended with 4152 gold</li></ul>
+    <br>
+    <li>Gamble body (705 gold), gloves/helm (676 gold) for 4 link RF/FT colors if you did not get from quest rewards in A6 or A7</li>
+    </li>
+</ul></i></div>
+<ul class="checklist">
+    <li><input type="checkbox">Righteous Fire -<span class="gems gem-blue">B</span><span class="gems gem-blue">B</span><span class="gems gem-blue">B</span><span class="gems gem-red">R</span>- Armor/ES Base <span style="color: #ff3333;margin-left: 10px;">Can get from A6/A7 reward</span>       </li>
+    <li><input type="checkbox">Fire Trap -<span class="gems gem-green">G</span><span class="gems gem-green">G</span><span class="gems gem-green">G</span><span class="gems gem-red">R</span>- EV Base<span style="color: #ff3333;margin-left: 10px;">Can get from A6/A7 reward</span></li>
+    <li><input type="checkbox">Curse -<span class="gems gem-blue">B</span><span class="gems gem-blue">B</span><span class="gems gem-blue">B</span><span class="gems gem-red">R</span>- Armor/ES Base</li>
+    <li><input type="checkbox">Movement - <span class="gems gem-green">G</span><span class="gems gem-green">G</span><span class="gems gem-red">R</span><span class="gems gem-blue">B</span>- EV/AR Base</li>
+    </li>
+</ul>
+<div class="note-block" id="ba-buy">
+    <i><p>Buy these 9 gems at Level 52 before entering Heist. Check Heist Links below to see where they are used.</p></i>  
+</div> 
+<ul class="checklist">
+    <li><input type="checkbox">Act 1: <span class="gems gem-red">2x Lifetap (max)</span>2x</span><img src="/images/trans.png" width="25">, <span class="gems gem-red">Enduring Cry</span></span><img src="/images/trans.png" width="25">, <span class="gems gem-red">Vitality</span></span><img src="/images/trans.png" width="25"></li>
+    <li><input type="checkbox">Act 3: <span class="gems gem-red">Punishment</span><img src="/images/alt.png" width="25"></li>
+    <li><input type="checkbox">Act 6: <span class="gems gem-red">2x Lifetap (1)</span>2x<img src="/images/trans.png" width="25">, <span class="gems gem-red">Arrogance</span><img src="/images/chance.png" width="25"><span class="gems gem-blue">Skitterbots</span><img src="/images/alt.png" width="25"></li>
+    </li>
+</ul> 
+Total cost: 6 Transmutes<img src="/images/trans.png" width="25"style="vertical-align: middle ;">, 2 Alterations<img src="/images/alt.png" width="25" style="vertical-align: middle ;">, 1 Chance <img src="/images/chance.png" width="25"style="vertical-align: middle ;">
+<hr>
+<!------------------ FINAL LINKS ------------------>
+<h2 id="heist">RF Heist Links</h2>
+<div class="link-block">
+    <ul class="checklist">
+        <li><input type="checkbox">Link 1: <span class="gems gem-blue">RF</span> + <span class="gems gem-blue">Elemental Focus</span> + <span class="gems gem-red">Lifetap</span> + <span class="gems gem-red">Burning Damage</span>or<span class="gems gem-blue">Efficacy</span></li>
+        <li><input type="checkbox">Link 2: <span class="gems gem-green">Fire Trap</span> + <span class="gems gem-green">Swift Affliction</span>+ <span class="gems gem-red">Lifetap (max)</span> + <span class="gems gem-green">Trap & Mine Damage</span></li>
+        <li><input type="checkbox">Link 3: <span class="gems gem-red">Shield Charge</span> + <span class="gems gem-red">Lifetap (1)</span>+ <span class="gems gem-green">Faster Attacks</span> + <span class="gems gem-green">Momentum</span></li>
+        <li><input type="checkbox">Link 4: <span class="gems gem-red">Vitality</span> + <span class="gems gem-red">Arrogance</span></li>
+        <li><input type="checkbox">Link 5: <span class="gems gem-red">Punishment</span> + <span class="gems gem-red">Lifetap (1)</span> + <span class="gems gem-red">Enduring Cry</span> + <span class="gems gem-blue">Frostblink (1)</span></li>
+        <li><input type="checkbox">Aura: <span class="gems gem-red">Determination</span>,<span class="gems gem-blue">Malevolence</span>,<span class="gems gem-blue">Skitterbots</span></li>
+        <li><input type="checkbox">Util: <span class="gems gem-green">Blood Rage</span></li>
+    </ul>
+</div>
+<h2 id="rf-map">RF Mapping Links</h2>
+<div class="link-block">
+    <ul class="checklist">
+        <li><input type="checkbox">Link 1: <span class="gems gem-blue">RF</span> + <span class="gems gem-red">Burning Damage</span>+<span class="gems gem-blue">Elemental Focus</span> +<span class="gems gem-blue">Efficacy</span> + <span class="gems gem-red">Lifetap</span> + <span class="gems gem-green">Swift Affliction</span></li>
+        <li><input type="checkbox">Link 2: <span class="gems gem-green">Fire Trap</span> + <span class="gems gem-green">Swift Affliction</span>+ <span class="gems gem-red">Lifetap (max)</span> + <span class="gems gem-green">Trap & Mine Damage</span></li>
+        <li><input type="checkbox">Link 3: <span class="gems gem-red">Shield Charge</span> + <span class="gems gem-red">Lifetap (1)</span>+ <span class="gems gem-green">Faster Attacks</span> + <span class="gems gem-blue">Frostblink (1)</span></li>
+        <li><input type="checkbox">Link 4: <span class="gems gem-red">Vitality</span> + <span class="gems gem-red">Arrogance</span></li>
+        <li><input type="checkbox">Link 5: <span class="gems gem-red">Punishment</span> + <span class="gems gem-red">Lifetap (1)</span> + <span class="gems gem-red">Enduring Cry</span></li>
+        <li><input type="checkbox">Aura: <span class="gems gem-red">Determination</span>,<span class="gems gem-red">Purity of Fire</span><span class="gems gem-blue">Malevolence</span>or<span class="gems gem-blue">Skitterbots</span></li>
+        <li><input type="checkbox">Util: <span class="gems gem-green">Blood Rage</span></li>
+    </ul>
+</div>
+</article>
+
+<!------------------ TOC ------------------>
+<aside class="toc-container">
+    <nav class="toc">
+        <h4>On this page</h4>
+        <ul>
+            <li><a href="#pob">POB Links</a></li>
+            <li><a href="#a1">ACT 1</a></li>            <li class="sub-item"><a href="#a1-links">A1 Links</a></li>
+            <li><a href="#a2">ACT 2</a></li>            <li class="sub-item"><a href="#a2-links">A2 Links</a></li>
+            <li><a href="#a3">ACT 3</a></li>            <li class="sub-item"><a href="#a3-links">A3 Links</a></li>
+            <li><a href="#a4">ACT 4</a></li>            <li class="sub-item"><a href="#a4-links">A4 Links</a></li>
+            <li><a href="#a5">ACT 5</a></li>            <li class="sub-item"><a href="#a5-links">A5 Links</a></li>
+            <li><a href="#a6">ACT 6</a></li>            <li class="sub-item"><a href="#a6-buy">Gems to buy in A6</a></li>
+            <li><a href="#a7">ACT 7</a></li>            
+            <li><a href="#a8">ACT 8</a></li>            
+            <li><a href="#ba">Level 52 Respec</a></li>  <li class="sub-item"><a href="#ba-buy">Gems to buy in BA</a></li>
+            <li><a href="#heist">Heist Links</a></li>
+            <li><a href="#rf-map">RF Mapping Links</a></li>
+        </ul>
+    </nav>
+</aside>
+
+        </div>
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@700&family=Space+Grotesk:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+:root {
+    --bg-color: #16191B;
+    --sidebar-color: #0C0E0F;
+    --accent-color: #EA9215;
+    --text-primary: #EEEEEE;
+    --text-muted: #888;
+}
+
+* { box-sizing: border-box; }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'JetBrains Mono', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+a {
+  color: var(--accent-color);
+}
+
+a:visited {
+    color: var(--text-muted);
+}
+.center-img {
+    display: flex;          /* Enables flexbox */
+    justify-content: center; /* Centers items horizontally */
+    gap: 15px;              /* Adds spacing between the icons */
+    margin: 20px 0;         /* Adds some breathing room top/bottom */
+    align-items: center;     /* Ensures they are level with each other */
+}
+.icon-colored {
+    display: inline-block;
+    width: 30px;  /* Adjust size as needed */
+    height: 30px;
+    background-color: var(--accent-color); /* Uses your project's orange */
+    
+    /* This treats the PNG as a stencil */
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+/* Make sure the link itself is a flex container for the icon + text */
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;           /* Space between icon and text */
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.social-link:hover {
+    opacity: 0.8;       /* Give a slight fade effect on hover */
+}
+
+.social-text {
+    color: var(--text-primary);
+    font-size: 14px;    /* Adjust based on your preference */
+}
+
+/* Ensure icons don't shrink when text is added */
+.icon-colored {
+    flex-shrink: 0; 
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* --- SIDEBAR NAV --- */
+.sidenav {
+    width: 360px;
+    background-color: var(--sidebar-color);
+    padding: 2.5rem 1.5rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    border-right: 1px solid #2d3840;
+}
+
+.sidenav h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--accent-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Stack Sans Headline', sans-serif;
+}
+
+.sidenav ul { list-style: none; padding: 0; }
+.sidenav li { margin-bottom: 0.8rem; }
+.sidenav a { 
+    color: var(--text-primary); 
+    text-decoration: none; 
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+.sidenav a:hover { color: var(--accent-color); }
+
+/* --- CONTENT WRAPPER --- */
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+
+.content-inner {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+}
+
+/* --- HEADINGS STYLE --- */
+article { flex: 3; }
+article h1 { 
+    font-size: 2.8rem; 
+    margin-bottom: 0;      /* Removes the gap after each paragraph */
+    margin-top: 0.5rem;         /* Ensures no gap above paragraphs */
+    font-family: 'Stack Sans Headline', sans-serif; }
+article h2 { 
+    margin-bottom: 0;      /* Removes the gap after each paragraph */
+    font-size: 2rem;
+    margin-top: 1rem;         /* Ensures no gap above paragraphs */
+    color: #ffb3fc;
+    font-family: 'Stack Sans Headline', sans-serif; }
+
+article h3 { 
+    margin-bottom: 0;      /* Removes the gap after each paragraph */
+    margin-top: 0rem;         /* Ensures no gap above paragraphs */
+    font-family: 'Stack Sans Headline', sans-serif;
+}
+
+article p { 
+    margin-bottom: 0;      /* Removes the gap after each paragraph */
+    margin-top: 0.5rem;         /* Ensures no gap above paragraphs */
+    line-height: 1.2;        /* Sets vertical spacing to exactly 1x font size */
+    color: #D0D0D0; 
+    font-size: 1.1rem; 
+}
+
+/* --- FLOATING TOC --- */
+.toc-container {
+    flex: 1;
+    position: sticky;
+    top: 4rem;
+    height: fit-content;
+    min-width: 200px;
+}
+
+.toc {
+    border-left: 1px solid #3a4750;
+    padding-left: 1.2rem;
+}
+
+.toc h4 { 
+    font-size: 0.75rem; 
+    text-transform: uppercase; 
+    color: var(--text-muted); 
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.toc ul { list-style: none; padding: 0; }
+.toc li { margin-bottom: 0.3rem; }
+.toc a { 
+    color: var(--text-muted); 
+    text-decoration: none; 
+    font-size: 0.85rem; 
+    transition: all 0.2s ease; /* Slightly faster feel */
+    display: block;
+    line-height: 1.2;          /* Tightened from 1.5 */
+    padding: 4px 0;           /* Gives links some vertical clickable space */
+    border-left: 2px solid transparent; /* Keeps text from jumping when active */
+}
+
+/* New rule for sublinks */
+.toc li.sub-item {
+    padding-left: 15px;       /* The visual indent */
+}
+
+.toc li.sub-item a {
+    font-size: 0.8rem;        /* Slightly smaller for hierarchy */
+    opacity: 0.8;
+}
+
+/* The Highlight Style */
+.toc a.active {
+    color: var(--accent-color) !important;
+    border-left: 2px solid var(--accent-color);
+    padding-left: 8px;        /* Small "nudge" effect when active */
+    opacity: 1 !important;
+}
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 1100px) {
+    .toc-container { display: none; }
+}
+
+@media (max-width: 768px) {
+    .container { flex-direction: column; }
+    .sidenav { 
+        width: 100%; 
+        height: auto; 
+        position: relative; 
+        border-right: none;
+        border-bottom: 1px solid #2d3840;
+    }
+}
+/* Hide sub-nav by default */
+.sub-nav {
+    display: none; 
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding-left: 1.5rem;
+}
+
+/* Class to show the sub-nav */
+.sub-nav.open {
+    display: block;
+}
+
+/* Style for parent items that have children */
+.has-children > a::after {
+    content: ' ›';
+    float: right;
+    transition: transform 0.3s;
+}
+
+.has-children.active-parent > a::after {
+    transform: rotate(90deg);
+    color: var(--accent-color);
+}
+/* Search Bar Styling */
+.search-container {
+    margin-bottom: 1.5rem;
+}
+
+#navSearch {
+    width: 100%;
+    background: #0f161c;
+    border: 1px solid #3a4750;
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    outline: none;
+}
+
+#navSearch:focus {
+    border-color: var(--accent-color);
+}
+
+/* Helper class for searching */
+.hidden {
+    display: none !important;
+}
+
+/* --- BULLET Styling --- */
+.custom-list {
+    padding: 0.2rem;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    list-style: none;
+
+}
+
+.bullet-list li {
+    display: flex;
+    align-items: flex-start; 
+    margin-bottom: 0rem;
+    position: relative;
+
+}
+
+.bullet-list li::before {
+    content: "→";
+    color: var(--accent-color);
+    margin-right: 0.8rem;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+/* --- Checkbox Styling --- */
+.checklist {
+    padding: 0.3rem 0.8rem ;
+    font-family: 'JetBrains Mono', monospace;
+    list-style: none;
+    margin: 0rem;  
+}
+
+.checklist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2rem;
+    transition: color 0.2s ease;
+    color: #7a7a7a;
+}
+
+.checklist input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    margin-right: 0.8rem;
+    cursor: pointer;
+    flex-shrink: 0;
+    background-color: transparent;
+    transition: all 0.2s ease;
+}
+
+.checklist input[type="checkbox"]:hover {
+    background-color: rgba(234, 146, 21, 0.1);
+}
+
+.checklist input[type="checkbox"]:checked {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.checklist input[type="checkbox"]:checked::after {
+    content: '✓';
+    color: var(--bg-color);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.checklist li.checked {
+    color: var(--text-muted);
+    text-decoration: line-through;
+}
+/* --- Gem Styling --- */
+.gems {
+  font-family: 'JetBrains Mono', monospace;
+  display: inline-block; /* Allows items to sit side-by-side */
+  vertical-align: middle; 
+  padding: 0px 4px;   
+  border-radius: 5px;
+  border: 1px solid;
+  margin: 0 5px;    
+  font-size: 14px;
+}
+/* Gems */
+.gem-red {
+  background-color: #160b0d;
+  border-color: #8b1717;     
+  color: #eec0c0;     
+}
+.gem-green {
+  background-color: #0d1a0f; 
+  border-color: #1ec51e;  
+  color: #d1ecd1;        
+}
+.gem-blue {
+  background-color: #0a0a0b; 
+  border-color: #4169e1;  
+  color: #bbe3ec;       
+}
+.gem-grey {
+  background-color: #121213; 
+  border-color: #4f4f4f;  
+  color: #acb2b4;       
+}
+
+.note-block {
+  font-family: 'JetBrains Mono', monospace;
+  position: relative;
+  background-color: transparent;
+  border: 1px solid #1a3672;
+  border-top: 20px solid #1a3672; /* Thick top bar */
+  padding: 0.2rem 1rem;
+  margin: 1.5rem 0;
+  border-radius: 5px;
+}
+.note-block::before {
+  font-family: 'Stack Sans Headline', sans-serif;
+  content: 'NOTE';
+  position: absolute;
+  top: -27px;
+  left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+/* Ensures paragraphs inside the note don't lose their spacing */
+.note-block p {
+  margin: 0;
+  line-height: 1.4;
+  color: #E0E0E0;
+}
+.link-block {
+  font-family: 'JetBrains Mono', monospace;
+  position: relative;
+  background-color: transparent;
+  border: 1px solid #6a5500;
+  border-top: 20px solid #6a5500; /* Thick top bar */
+  padding: 0.2rem 1rem;
+  margin: 1.5rem 0;
+  border-radius: 5px;
+}
+/* The label inside the top border */
+.link-block::before {
+  font-family: 'Stack Sans Headline', sans-serif;
+  content: 'LINKS';
+  position: absolute;
+  top: -27px;
+  left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.link-block p {
+  margin: 0;
+  line-height: 1.4;
+  color: #E0E0E0;
+}
+
+/* --- TABLE STYLING --- */
+.table-wrapper {
+    display: flex;
+    flex-wrap: nowrap; /* Keeps them in a single row */
+    gap: 25px;          /* Small gap between the tables */
+    background-color: #16191B; /* Dark border color between tables */
+    padding: 2px;
+    width: fit-content;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #1f22249c;
+    font-size: 18px;
+    text-align: center;
+}
+
+th { /* Header Styles */
+    background-color: #171515;
+    color: #e0e0e0;
+    padding: 6px 10px;
+    border: 1px solid #171515;
+    font-weight: bold;
+}
+td {
+    padding: 4px 12px;
+    border: 1px solid #0e1011;
+    color: #e0e0e0;
+}
+.char-lvl {
+    background-color: #1715159e;
+    color: #ffffff;
+    font-weight: bold;
+    border-color: #0e1011;
+}
+
+/* The Red Highlighted Row (Lvl 55) */
+.highlight td {
+    background-color: #a30000 !important;
+    color: white !important;
+    border-color: #0e1011;
+}
+
+/* Gray filler cells at the bottom of the last table */
+.empty-cell {
+    background-color: #16191B;
+    border: 1px solid #16191B;
+}
+
+/* --- CODE BLOCK STYLING --- */
+.code-container {
+    background-color: #0c0e0f; /* Slightly darker than your bg */
+    border: 1px solid #3a4750;
+    border-radius: 6px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.code-header {
+    background-color: #1a1d20;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #3a4750;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+pre {
+    margin: 0;
+    padding: 15px;
+    overflow-x: auto; /* Adds scrollbar if code is too long */
+}
+
+code {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--accent-color);
+    font-size: 0.9rem;
+    white-space: pre-wrap; /* Keeps text inside the box */
+    word-break: break-all;
+}
+
+.copy-btn {
+    background: transparent;
+    border: 1px solid var(--text-muted);
+    color: var(--text-muted);
+    padding: 2px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+
+.copy-btn:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
