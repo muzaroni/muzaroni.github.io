@@ -69,7 +69,7 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     }, { rootMargin: '-20% 0px -70% 0px' });
 
-    document.querySelectorAll('article h2, artcile h3').forEach(s => observer.observe(s));
+    document.querySelectorAll('article h2, article h3').forEach(s => observer.observe(s));
 
     // Checkbox Logic
     document.querySelectorAll('.checklist input[type="checkbox"]').forEach(cb => {
