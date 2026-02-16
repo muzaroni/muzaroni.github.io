@@ -274,6 +274,25 @@ article p {
     color: var(--bg-color);
     font-weight: bold;
 }
+.nav-header-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally */
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.nav-title {
+    margin-bottom: 0.5rem !important; /* Overrides existing margin */
+    width: 100%;
+}
+
+/* Ensure the .center-img inside the header doesn't have 
+   excessive margins that throw off the centering */
+.nav-header-center .center-img {
+    margin: 5px 0; 
+}
 .sidenav {
     width: 360px;
     background-color: var(--sidebar-color);

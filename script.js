@@ -73,6 +73,21 @@ function initScrollSpy() {
     targets.forEach(t => observer.observe(t));
 }
 
+function copyDiscord(element) {
+    const textToCopy = "@muzaroni";
+    const textSpan = element.querySelector('.social-text');
+    
+    navigator.clipboard.writeText(textToCopy).then(() => {
+        const originalText = textSpan.innerText;
+        textSpan.innerText = "@muzaroni";
+        textSpan.style.color = "var(--accent-color)";
+        
+        setTimeout(() => {
+            textSpan.innerText = originalText;
+            textSpan.style.color = "";
+        }, 2000);
+    });
+}
 // --- Initialization ---
 window.addEventListener('DOMContentLoaded', () => {
     // 1. Load the sidebar nav
