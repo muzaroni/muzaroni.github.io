@@ -5,7 +5,7 @@
             <article>
 
 
-# Campaign Pathing
+# Campaign Pathing (WIP)
 <div class="note-block">
 
 Every bullet point should be considered a "chain of events" that mostly ends in a logout. The goal is to go through every chain in sequence to minimize the number of times you have to be in town. Check Legend below for all points of interests.
@@ -71,6 +71,7 @@ Every bullet point should be considered a "chain of events" that mostly ends in 
 
 
 </ul>
+
 ---
 <footer class="main-footer">
 <div class="footer-content">
