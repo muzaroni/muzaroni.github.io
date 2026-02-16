@@ -9,9 +9,15 @@
 }
 
 * { box-sizing: border-box; }
-
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 html {
     scroll-behavior: smooth;
+    font-size: 18px;
 }
 
 body {
@@ -20,14 +26,49 @@ body {
     background-color: var(--bg-color);
     color: var(--text-primary);
     line-height: 1.6;
+    font-size: 18px;
+}
+/* 1. Remove that dotted "weird" focus box when clicked */
+input[type="checkbox"]:focus {
+    outline: none !important;
+    box-shadow: none !important;
 }
 
+/* 2. Reset the checkbox look for the UNCHECKED state */
+/* This ensures that when you uncheck it, it goes back to the default empty box */
+input[type="checkbox"]:not(:checked)::after {
+    content: none !important;
+}
+
+/* 3. Style the "Active" state (while holding the click) */
+/* This prevents it from looking 'stuck' or changing color oddly when clicked */
+input[type="checkbox"]:active {
+    background-color: transparent !important;
+}
+
+/* 4. Fix the Checked look specifically */
+/* This ensures the checkmark ONLY shows up if the box is actually checked */
+input[type="checkbox"]:checked::after {
+    content: '✓';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-color); /* Or whatever color your checkmark should be */
+    font-weight: bold;
+}
 a {
   color: var(--accent-color);
 }
 
 a:visited {
     color: var(--text-muted);
+}
+.main-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px; /* Adjust this value to increase/decrease the space */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .center-img {
     display: flex;          /* Enables flexbox */
@@ -66,7 +107,7 @@ a:visited {
 
 .social-text {
     color: var(--text-primary);
-    font-size: 14px;    /* Adjust based on your preference */
+    font-size: 18px;    /* Adjust based on your preference */
 }
 
 /* Ensure icons don't shrink when text is added */
@@ -75,38 +116,9 @@ a:visited {
 }
 .container {
     display: flex;
-    min-height: 100vh;
+    height: 100vh; /* This locks the container to the viewport height */
+    overflow: hidden; /* Prevents the main body from scrolling */
 }
-
-/* --- SIDEBAR NAV --- */
-.sidenav {
-    width: 360px;
-    background-color: var(--sidebar-color);
-    padding: 2.5rem 1.5rem;
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    border-right: 1px solid #2d3840;
-}
-
-.sidenav h2 {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-    color: var(--accent-color);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: 'Stack Sans Headline', sans-serif;
-}
-
-.sidenav ul { list-style: none; padding: 0; }
-.sidenav li { margin-bottom: 0.8rem; }
-.sidenav a { 
-    color: var(--text-primary); 
-    text-decoration: none; 
-    font-size: 0.95rem;
-    transition: color 0.2s;
-}
-.sidenav a:hover { color: var(--accent-color); }
 
 /* --- CONTENT WRAPPER --- */
 .content-wrapper {
@@ -114,6 +126,8 @@ a:visited {
     display: flex;
     justify-content: center;
     padding: 4rem 2rem;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .content-inner {
@@ -146,18 +160,18 @@ article h3 {
 article p { 
     margin-bottom: 0;      /* Removes the gap after each paragraph */
     margin-top: 0.5rem;         /* Ensures no gap above paragraphs */
-    line-height: 1.2;        /* Sets vertical spacing to exactly 1x font size */
+    line-height: 1.4;        /* Sets vertical spacing to exactly 1x font size */
     color: #D0D0D0; 
-    font-size: 1.1rem; 
+    font-size: 1rem; 
 }
 
 /* --- FLOATING TOC --- */
 .toc-container {
-    flex: 1;
+    flex: 0 0 250px; /* Keeps the TOC a fixed width */
     position: sticky;
     top: 4rem;
     height: fit-content;
-    min-width: 200px;
+    margin-left: 3rem; /* This creates the visible padding between content and TOC */
 }
 
 .toc {
@@ -166,7 +180,7 @@ article p {
 }
 
 .toc h4 { 
-    font-size: 0.75rem; 
+    font-size: 1rem; 
     text-transform: uppercase; 
     color: var(--text-muted); 
     margin-bottom: 0.5rem;
@@ -178,10 +192,10 @@ article p {
 .toc a { 
     color: var(--text-muted); 
     text-decoration: none; 
-    font-size: 0.85rem; 
+    font-size: 1rem; 
     transition: all 0.2s ease; /* Slightly faster feel */
     display: block;
-    line-height: 1.2;          /* Tightened from 1.5 */
+    line-height: 1;          /* Tightened from 1.5 */
     padding: 4px 0;           /* Gives links some vertical clickable space */
     border-left: 2px solid transparent; /* Keeps text from jumping when active */
 }
@@ -192,8 +206,8 @@ article p {
 }
 
 .toc li.sub-item a {
-    font-size: 0.8rem;        /* Slightly smaller for hierarchy */
-    opacity: 0.8;
+    font-size: 1rem;        /* Slightly smaller for hierarchy */
+    opacity: 0.5;
 }
 
 /* The Highlight Style */
@@ -219,6 +233,78 @@ article p {
         border-bottom: 1px solid #2d3840;
     }
 }
+/* --- SIDEBAR NAV --- */
+/* Container for the menu */
+#navMenu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Make the clickable area fill the width and add padding */
+#navMenu li a {
+    display: block;                /* Important: makes the whole row clickable */
+    padding: 8px 20px;            /* Vertical and horizontal space */
+    margin: 5px 0;                 /* Space between pills */
+    color: var(--text-primary);
+    text-decoration: none;
+    border-radius: 8px;            /* Creates the pill shape */
+    transition: all 0.2s ease;
+    font-family: 'Stack Sans Headline', sans-serif;
+    font-size: 1rem;
+}
+
+/* The Hover Effect (Pill Background) */
+#navMenu li a:hover {
+    background-color: rgba(234, 146, 21, 0.15); /* Light version of your orange */
+    color: var(--accent-color);
+    padding-left: 28px;            /* Subtle "nudge" animation */
+}
+
+/* Special styling for Sub-Nav items to keep hierarchy */
+.sub-nav li a {
+    padding: 8px 20px 8px 35px !important; /* Extra left padding for indent */
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+/* Optional: Active state for the page you are currently on */
+#navMenu li a.active-page {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    font-weight: bold;
+}
+.sidenav {
+    width: 360px;
+    background-color: var(--sidebar-color);
+    padding: 2.5rem 1.5rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    flex-shrink: 0;
+    border-right: 1px solid #2d3840;
+    font-family: 'Stack Sans Headline', sans-serif;
+}
+
+.sidenav h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--accent-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Stack Sans Headline', sans-serif;
+}
+
+.sidenav ul { list-style: none; padding: 0; }
+.sidenav li { margin-bottom: 0.8rem; }
+.sidenav a { 
+    color: var(--text-primary); 
+    text-decoration: none; 
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+.sidenav a:hover { color: var(--accent-color); }
 /* Hide sub-nav by default */
 .sub-nav {
     display: none; 
@@ -257,6 +343,7 @@ article p {
     padding: 10px;
     color: var(--text-primary);
     font-size: 0.9rem;
+    font-family: 'Stack Sans Headline', sans-serif;
     outline: none;
 }
 
@@ -268,21 +355,24 @@ article p {
 .hidden {
     display: none !important;
 }
-
+.icon-inline {
+    width: 24px;
+    vertical-align: middle;
+    margin: 0 4px;
+}
 /* --- BULLET Styling --- */
 .custom-list {
     padding: 0.2rem;
     margin: 0;
     font-family: 'JetBrains Mono', monospace;
     list-style: none;
-
 }
 .bullet-list li {
     display: block;             
     position: relative;
-    padding-left: 1.5rem;     
+    padding-left: 1.6rem;     
     margin-bottom: 0.2rem;
-    line-height: 1.2;
+    line-height: 1.4;
     text-align: left;
 }
 .bullet-list li::before {
@@ -294,12 +384,20 @@ article p {
     left:0;
     top:0;
 }
+.bullet-list ul, 
+.bullet-list li ul {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
 /* --- Checkbox Styling --- */
 .checklist {
     padding: 0.3rem 0.8rem ;
     font-family: 'JetBrains Mono', monospace;
     list-style: none;
     margin: 0rem;  
+    line-height: 1.4;
 }
 
 .checklist li {
@@ -308,6 +406,9 @@ article p {
     margin-bottom: 0.2rem;
     transition: color 0.2s ease;
     color: #7a7a7a;
+    cursor: pointer;    /* Makes the mouse a hand icon for the whole row */
+    user-select: none;  /* Prevents accidental text highlighting while clicking */
+    transition: background 0.2s;
 }
 
 .checklist input[type="checkbox"] {
@@ -319,11 +420,29 @@ article p {
     border-radius: 4px;
     margin-right: 0.8rem;
     cursor: pointer;
+    pointer-events: fill;
     flex-shrink: 0;
     background-color: transparent;
     transition: all 0.2s ease;
 }
 
+/* 1. Style the text and layout of the finished row */
+li.checked {
+    color: var(--text-muted) !important;
+    opacity: 0.2;
+}
+
+/* 2. Apply strikethrough to everything EXCEPT the checkbox */
+li.checked *:not(input[type="checkbox"]) {
+    text-decoration: line-through !important;
+}
+
+/* 3. Ensure the checkbox stays clean and at full opacity */
+li.checked input[type="checkbox"] {
+    text-decoration: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+}
 .checklist input[type="checkbox"]:hover {
     background-color: rgba(234, 146, 21, 0.1);
 }
@@ -331,6 +450,8 @@ article p {
 .checklist input[type="checkbox"]:checked {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
+    color: var(--text-muted) !important;
+    opacity: 0.6;
 }
 
 .checklist input[type="checkbox"]:checked::after {
@@ -342,10 +463,12 @@ article p {
     justify-content: center;
     font-size: 10px;
 }
-
-.checklist li.checked {
-    color: var(--text-muted);
-    text-decoration: line-through;
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--accent-color), transparent);
+    margin: 2rem 0;
+    opacity: 0.5;
 }
 /* --- Gem Styling --- */
 .gems {
@@ -356,37 +479,117 @@ article p {
   border-radius: 5px;
   border: 1px solid;
   margin: 0 5px;    
-  font-size: 14px;
+  font-size: 1rem;
 }
-/* Gems */
-.gem-red {
+/* Socket Colors */
+a[href="b"] { color: #33a1ff !important; text-decoration: none; pointer-events: none; } /* Blue */
+a[href="r"] { color: #ff3333 !important; text-decoration: none; pointer-events: none; } /* Red */
+a[href="g"] { color: #33ff33 !important; text-decoration: none; pointer-events: none; } /* Green */
+a[href="npc"] {
+    color: #ca6f07 !important;
+    text-decoration: none;
+    pointer-events: none;
+    display: inline;         /* Keeps them part of the text flow */
+    white-space: normal;     /* Allows text inside the tag to wrap */
+}
+
+a[href="important"] {
+    color: #ff3333 !important;
+    text-decoration: none;
+    pointer-events: none;
+    display: inline;         /* Keeps them part of the text flow */
+    white-space: normal;     /* Allows text inside the tag to wrap */
+}
+
+/* Gem Styles */
+a[href="gemred"], a[href="gemgreen"], a[href="gemblue"], a[href="gemgrey"], a[href="trial"], a[href="gemquest"] {
+  font-family: 'JetBrains Mono', monospace;
+  display: inline-block;
+  vertical-align: middle; 
+  padding: 0px 4px;   
+  border-radius: 5px;
+  border: 1px solid;
+  margin: 0 5px;    
+  font-size: 1rem;
+  text-decoration: none !important;
+  pointer-events: none;
+  user-select: none;
+  line-height: 1.4;
+}
+/* Quest Item */
+a[href="gemquest"] {
+  background-color: #0d1a0f; 
+  border-color: #1ec51e;  
+  color: #04ff04;        
+}
+/* Red Gems */
+a[href="gemred"] {
   background-color: #160b0d;
   border-color: #8b1717;     
   color: #eec0c0;     
 }
-.gem-green {
+
+/* Green Gems */
+a[href="gemgreen"] {
   background-color: #0d1a0f; 
   border-color: #1ec51e;  
   color: #d1ecd1;        
 }
-.gem-blue {
+
+/* Blue Gems */
+a[href="gemblue"] {
   background-color: #0a0a0b; 
   border-color: #4169e1;  
   color: #bbe3ec;       
 }
-.gem-grey {
+
+/* White/Grey Gems */
+a[href="gemgrey"] {
   background-color: #121213; 
   border-color: #4f4f4f;  
-  color: #acb2b4;       
+  color: #acb2b4;      
 }
-
+  /* Trials */
+a[href="trial"] {
+  background-color: #023a2c; 
+  border-color: #09775c;  
+  color: #64e0c1;   
+}
+.imp-block {
+  font-family: 'JetBrains Mono', monospace;
+  position: relative;
+  background-color: transparent;
+  border: 1px solid #721a1a;
+  border-top: 25px solid #721a1a; /* Thick top bar */
+  padding: 0.2rem 0.5rem;
+  margin: 1.5rem 0;
+  border-radius: 5px;
+}
+.imp-block::before {
+  font-family: 'Stack Sans Headline', sans-serif;
+  content: 'IMPORTANT';
+  position: absolute;
+  top: -33px;
+  left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+/* Ensures paragraphs inside the note don't lose their spacing */
+.imp-block p {
+  margin: 0;
+  line-height: 1.4;
+  color: #E0E0E0;
+}
 .note-block {
   font-family: 'JetBrains Mono', monospace;
   position: relative;
   background-color: transparent;
   border: 1px solid #1a3672;
-  border-top: 20px solid #1a3672; /* Thick top bar */
-  padding: 0.2rem 1rem;
+  border-top: 25px solid #1a3672; /* Thick top bar */
+  padding: 0.2rem 0.5rem;
   margin: 1.5rem 0;
   border-radius: 5px;
 }
@@ -394,9 +597,9 @@ article p {
   font-family: 'Stack Sans Headline', sans-serif;
   content: 'NOTE';
   position: absolute;
-  top: -27px;
+  top: -33px;
   left: 10px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   color: #e7e7e7;
   text-transform: uppercase;
@@ -412,8 +615,8 @@ article p {
   font-family: 'JetBrains Mono', monospace;
   position: relative;
   background-color: transparent;
-  border: 1px solid #6a5500;
-  border-top: 20px solid #6a5500; /* Thick top bar */
+  border: 1px solid #7a5608;
+  border-top: 25px solid #7a5608; /* Thick top bar */
   padding: 0.2rem 1rem;
   margin: 1.5rem 0;
   border-radius: 5px;
@@ -421,11 +624,11 @@ article p {
 /* The label inside the top border */
 .link-block::before {
   font-family: 'Stack Sans Headline', sans-serif;
-  content: 'LINKS';
+  content: 'GEM LINKS';
   position: absolute;
-  top: -27px;
+  top: -33px;
   left: 10px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   color: #e7e7e7;
   text-transform: uppercase;
@@ -448,14 +651,12 @@ article p {
     width: fit-content;
     font-family: 'JetBrains Mono', monospace;
 }
-
 table {
     border-collapse: collapse;
     background-color: #1f22249c;
-    font-size: 18px;
+    font-size: 1rem;
     text-align: center;
 }
-
 th { /* Header Styles */
     background-color: #171515;
     color: #e0e0e0;
@@ -474,15 +675,11 @@ td {
     font-weight: bold;
     border-color: #0e1011;
 }
-
-/* The Red Highlighted Row (Lvl 55) */
 .highlight td {
     background-color: #a30000 !important;
     color: white !important;
     border-color: #0e1011;
 }
-
-/* Gray filler cells at the bottom of the last table */
 .empty-cell {
     background-color: #16191B;
     border: 1px solid #16191B;
@@ -490,13 +687,12 @@ td {
 
 /* --- CODE BLOCK STYLING --- */
 .code-container {
-    background-color: #0c0e0f; /* Slightly darker than your bg */
+    background-color: #101314; /* Slightly darker than your bg */
     border: 1px solid #3a4750;
     border-radius: 6px;
     margin: 20px 0;
     overflow: hidden;
 }
-
 .code-header {
     background-color: #1a1d20;
     padding: 8px 15px;
@@ -504,25 +700,25 @@ td {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #3a4750;
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: var(--text-muted);
     text-transform: uppercase;
 }
-
 pre {
     margin: 0;
     padding: 15px;
     overflow-x: auto; /* Adds scrollbar if code is too long */
 }
-
 code {
     font-family: 'JetBrains Mono', monospace;
     color: var(--accent-color);
-    font-size: 0.9rem;
+    font-size: 1rem;
     white-space: pre-wrap; /* Keeps text inside the box */
     word-break: break-all;
+    padding: 8px 15px;
+    display: flex;
+    
 }
-
 .copy-btn {
     background: transparent;
     border: 1px solid var(--text-muted);
@@ -530,10 +726,58 @@ code {
     padding: 2px 8px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
-
 .copy-btn:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
+}
+/* Fix for VS Code Export wrapping */
+.vscode-body > div:first-child, 
+.vscode-body > .container {
+    height: 100vh;
+    display: flex;
+}
+.main-footer {
+    margin-top: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-muted);
+    width: 100%;
+    max-width: 900px; /* Matches your article width if applicable */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-subtext {
+    font-size: 0.75rem;
+    opacity: 0.6;
+    margin-top: 4px;
+}
+
+.footer-right a {
+    color: var(--text-muted);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-right a:hover {
+    color: var(--accent-color);
+}
+
+/* Ensure footer looks good on mobile */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
 }

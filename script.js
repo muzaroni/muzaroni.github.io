@@ -1,4 +1,4 @@
-// --- Navigation Loader ---
+// --- Navigation Loader (Side Menu) ---
 async function loadNavigation() {
     const navPlaceholder = document.getElementById('nav-placeholder');
     if (!navPlaceholder) return;
@@ -8,7 +8,6 @@ async function loadNavigation() {
         const navHtml = await response.text();
         navPlaceholder.innerHTML = navHtml;
         
-        // Initialize sidebar and search AFTER the HTML is loaded
         initSidebarLogic();
         initSearchLogic();
     } catch (err) {
@@ -16,76 +15,105 @@ async function loadNavigation() {
     }
 }
 
-// --- Collapsible Sidebar Logic ---
 function initSidebarLogic() {
     const parents = document.querySelectorAll('.has-children');
     parents.forEach(parent => {
         const link = parent.querySelector('a');
         const subNav = parent.querySelector('.sub-nav');
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            subNav.classList.toggle('open');
-            parent.classList.toggle('active-parent');
-        });
+        
+        if (link && subNav) {
+            link.addEventListener('click', (e) => {
+                e.preventDefault(); // Stop the link from navigating
+                e.stopPropagation(); // Prevent event bubbling
+                
+                // Toggle the 'open' class on the sub-menu
+                subNav.classList.toggle('open');
+                
+                // Toggle an 'active' class on the parent for rotation/styling
+                parent.classList.toggle('active-parent');
+            });
+        }
     });
 }
 
-// --- Search Functionality ---
-function initSearchLogic() {
-    const searchInput = document.getElementById('navSearch');
-    const navItems = document.querySelectorAll('#navMenu > li');
-    if (!searchInput) return;
+// --- ScrollSpy Logic ---
+function initScrollSpy() {
+    const scrollContainer = document.querySelector('.content-wrapper');
+    // Finds the spans you added: ## <span id="regex"></span>
+    const targets = document.querySelectorAll('article span[id]');
+    const tocLinks = document.querySelectorAll('.toc a');
 
-    searchInput.addEventListener('input', (e) => {
-        const term = e.target.value.toLowerCase();
-        navItems.forEach(item => {
-            const text = item.textContent.toLowerCase();
-            const isMatch = text.includes(term);
-            item.classList.toggle('hidden', !isMatch);
-            const subNav = item.querySelector('.sub-nav');
-            if (subNav && term !== "") {
-                if (isMatch) {
-                    subNav.classList.add('open');
-                    item.classList.add('active-parent');
+    if (!scrollContainer || targets.length === 0) return;
+
+    const observerOptions = {
+        root: scrollContainer,
+        // This margin creates a "hit zone" near the top of the scroll container
+        rootMargin: '-5% 0px -80% 0px',
+        threshold: 0
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            // Only trigger when the span enters the top area
+            if (entry.isIntersecting) {
+                const id = entry.target.getAttribute('id');
+                
+                // Clear all active classes from TOC
+                tocLinks.forEach(link => link.classList.remove('active'));
+                
+                // Find the link pointing to this ID and highlight it
+                const activeLink = document.querySelector(`.toc a[href="#${id}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('active');
                 }
             }
         });
-    });
+    }, observerOptions);
+
+    targets.forEach(t => observer.observe(t));
 }
 
-// --- Initialize Everything ---
+// --- Initialization ---
 window.addEventListener('DOMContentLoaded', () => {
+    // 1. Load the sidebar nav
     loadNavigation();
 
-    // ScrollSpy Logic
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            const id = entry.target.getAttribute('id');
-            const tocLink = document.querySelector(`.toc li a[href="#${id}"]`);
-            if (entry.isIntersecting) {
-                document.querySelectorAll('.toc li a').forEach(l => l.classList.remove('active'));
-                if (tocLink) tocLink.classList.add('active');
+    // 2. Start ScrollSpy for the TOC on the page
+    // Using a tiny timeout ensures the browser has rendered the MD spans
+    setTimeout(initScrollSpy, 200);
+
+    // 3. Checklist Logic
+    document.querySelectorAll('.checklist li').forEach(listItem => {
+        listItem.addEventListener('click', function(e) {
+            const checkbox = this.querySelector('input[type="checkbox"]');
+            if (!checkbox) return;
+            if (e.target !== checkbox) {
+                checkbox.checked = !checkbox.checked;
             }
-        });
-    }, { rootMargin: '-20% 0px -70% 0px' });
-
-    document.querySelectorAll('article h2, article h3').forEach(s => observer.observe(s));
-
-    // Checkbox Logic
-    document.querySelectorAll('.checklist input[type="checkbox"]').forEach(cb => {
-        cb.addEventListener('change', function() {
-            this.parentElement.classList.toggle('checked', this.checked);
+            this.classList.toggle('checked', checkbox.checked);
         });
     });
 });
-function copyCode(button) {
-    const codeBlock = button.parentElement.nextElementSibling.querySelector('code');
-    const text = codeBlock.innerText;
 
-    navigator.clipboard.writeText(text).then(() => {
-        button.innerText = "Copied!";
-        setTimeout(() => {
-            button.innerText = "Copy";
-        }, 2000);
+// --- Copy Code Logic ---
+function copyCode(button) {
+    const container = button.closest('.code-container');
+    const codeBlock = container ? container.querySelector('code') : null;
+    if (!codeBlock) return;
+    navigator.clipboard.writeText(codeBlock.innerText).then(() => {
+        const originalText = button.innerText;
+        button.innerText = "COPIED!";
+        setTimeout(() => button.innerText = originalText, 2000);
+    });
+}
+// Add this to your script.js
+const topBtn = document.getElementById('back-to-top');
+if (topBtn) {
+    topBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        document.querySelector('.content-wrapper').scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     });
 }
