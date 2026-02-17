@@ -21,13 +21,17 @@ This might seem like a long list but I practically use every single one of these
 
 </ul>
 
+---
+
 ## <span id="browser"></span>Browser Extensions
 <ul class="custom-list bullet-list">
 
 - <a href="https://chromewebstore.google.com/detail/better-pathofexile-tradin/fhlinfpmdlijegjlpgedcmglkakaghnk">Better POE Trading</a>: Basically a bookmark system for all your complex trade searches
-- <a href="https://chromewebstore.google.com/detail/path-of-exile-trade-fuzzy/mkbkmkampdnnbehdldipgjhbablkmfba?hl=en">POE Fuzzy Search</a>: This adds "~" in the search boxes, makes it MUCH faster to find mods and items
+- <a href="https://chromewebstore.google.com/detail/path-of-exile-trade-fuzzy/mkbkmkampdnnbehdldipgjhbablkmfba?hl=en">POE Fuzzy Search</a>: Adds tilde prefix "~" in the search boxes, makes it MUCH faster to find mods and items
   
 </ul>
+
+---
 
 ## <span id="websites"></span>Most Used Websites
 <ul class="custom-list bullet-list">
@@ -57,7 +61,6 @@ This might seem like a long list but I practically use every single one of these
 - <a href="https://www.youtube.com/playlist?list=PL1sXxxK5qcP1DFMN4Blg58TAAOwNTsvc9">LLYD</a> - 5-10 min Act 1 Layout tutorials
 - <a href="https://www.definitivguide.com/docs/PoE1/layout">Cyclon</a> - Excellent layout breakdowns of every zone. Would recommend if you want to get faster at campaign
 - <a href="https://www.youtube.com/@Tuadh-PoE/videos">Tuadh </a>- Posts a ton of 2 stone run vids. Incredible resource for league start.
-
 
 </ul>
 

@@ -504,21 +504,8 @@ hr {
 a[href="b"] { color: #33a1ff !important; text-decoration: none; pointer-events: none; } /* Blue */
 a[href="r"] { color: #ff3333 !important; text-decoration: none; pointer-events: none; } /* Red */
 a[href="g"] { color: #33ff33 !important; text-decoration: none; pointer-events: none; } /* Green */
-a[href="npc"] {
-    color: #ca6f07 !important;
-    text-decoration: none;
-    pointer-events: none;
-    display: inline;         /* Keeps them part of the text flow */
-    white-space: normal;     /* Allows text inside the tag to wrap */
-}
-
-a[href="important"] {
-    color: #ff3333 !important;
-    text-decoration: none;
-    pointer-events: none;
-    display: inline;         /* Keeps them part of the text flow */
-    white-space: normal;     /* Allows text inside the tag to wrap */
-}
+a[href="y"] { color: #fddb00 !important; text-decoration: none; pointer-events: none; } /* Yellow */
+a[href="npc"] { color: #ca6f07 !important; text-decoration: none; pointer-events: none; display: inline;white-space: normal;}/* NPC */
 
 /* Gem Styles */
 a[href="gemred"], a[href="gemgreen"], a[href="gemblue"], a[href="gemgrey"], a[href="trial"], a[href="gemquest"] {
@@ -666,42 +653,39 @@ a[href="trial"] {
     flex-wrap: nowrap; /* Keeps them in a single row */
     gap: 25px;          /* Small gap between the tables */
     background-color: #16191B; /* Dark border color between tables */
+    border-color: #0e1011;
     padding: 2px;
     width: fit-content;
     font-family: 'JetBrains Mono', monospace;
+        text-align: center;
 }
 table {
-    border-collapse: collapse;
     background-color: #1f22249c;
-    font-size: 1rem;
-    text-align: center;
+    border-collapse: collapse;
 }
 th { /* Header Styles */
     background-color: #171515;
     color: #e0e0e0;
     padding: 6px 10px;
     border: 1px solid #171515;
-    font-weight: bold;
+    text-align: center;
 }
 td {
     padding: 4px 12px;
-    border: 1px solid #0e1011;
     color: #e0e0e0;
+    border: 1px solid #171515;
 }
 .char-lvl {
     background-color: #1715159e;
     color: #ffffff;
     font-weight: bold;
-    border-color: #0e1011;
 }
 .highlight td {
-    background-color: #a30000 !important;
-    color: white !important;
-    border-color: #0e1011;
+    background-color: #731313 !important;
 }
 .empty-cell {
     background-color: #16191B;
-    border: 1px solid #16191B;
+    border-color: 1px solid #1715159e;
 }
 
 /* --- CODE BLOCK STYLING --- */

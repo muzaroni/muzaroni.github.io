@@ -1,193 +1,51 @@
-<!DOCTYPE html>
-        <html>
-        <head>
-            <meta charset="UTF-8">
-            <title>General Information</title>
-            <style>
-/* From extension vscode.github */
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-.vscode-dark img[src$=\#gh-light-mode-only],
-.vscode-light img[src$=\#gh-dark-mode-only],
-.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
-.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
-	display: none;
-}
-
-</style>
-            
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
-<style>
-            body {
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
-                font-size: 14px;
-                line-height: 1.6;
-            }
-        </style>
-        <style>
-.task-list-item {
-    list-style-type: none;
-}
-
-.task-list-item-checkbox {
-    margin-left: -20px;
-    vertical-align: middle;
-    pointer-events: none;
-}
-</style>
-<style>
-:root {
-  --color-note: #0969da;
-  --color-tip: #1a7f37;
-  --color-warning: #9a6700;
-  --color-severe: #bc4c00;
-  --color-caution: #d1242f;
-  --color-important: #8250df;
-}
-
-</style>
-<style>
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-note: #2f81f7;
-    --color-tip: #3fb950;
-    --color-warning: #d29922;
-    --color-severe: #db6d28;
-    --color-caution: #f85149;
-    --color-important: #a371f7;
-  }
-}
-
-</style>
-<style>
-.markdown-alert {
-  padding: 0.5rem 1rem;
-  margin-bottom: 16px;
-  color: inherit;
-  border-left: .25em solid #888;
-}
-
-.markdown-alert>:first-child {
-  margin-top: 0
-}
-
-.markdown-alert>:last-child {
-  margin-bottom: 0
-}
-
-.markdown-alert .markdown-alert-title {
-  display: flex;
-  font-weight: 500;
-  align-items: center;
-  line-height: 1
-}
-
-.markdown-alert .markdown-alert-title .octicon {
-  margin-right: 0.5rem;
-  display: inline-block;
-  overflow: visible !important;
-  vertical-align: text-bottom;
-  fill: currentColor;
-}
-
-.markdown-alert.markdown-alert-note {
-  border-left-color: var(--color-note);
-}
-
-.markdown-alert.markdown-alert-note .markdown-alert-title {
-  color: var(--color-note);
-}
-
-.markdown-alert.markdown-alert-important {
-  border-left-color: var(--color-important);
-}
-
-.markdown-alert.markdown-alert-important .markdown-alert-title {
-  color: var(--color-important);
-}
-
-.markdown-alert.markdown-alert-warning {
-  border-left-color: var(--color-warning);
-}
-
-.markdown-alert.markdown-alert-warning .markdown-alert-title {
-  color: var(--color-warning);
-}
-
-.markdown-alert.markdown-alert-tip {
-  border-left-color: var(--color-tip);
-}
-
-.markdown-alert.markdown-alert-tip .markdown-alert-title {
-  color: var(--color-tip);
-}
-
-.markdown-alert.markdown-alert-caution {
-  border-left-color: var(--color-caution);
-}
-
-.markdown-alert.markdown-alert-caution .markdown-alert-title {
-  color: var(--color-caution);
-}
-
-</style>
-        
-        </head>
-        <body class="vscode-body vscode-light">
-            <div class="container">
+<div class="container">
 <nav class="sidenav" id="nav-placeholder"></nav>
 <main class="content-wrapper">
 <div class="content-inner">
 <article>
-<h1 id="general-information">General Information</h1>
-<p>Updated: Feb 11, 2026</p>
+
+# General Information
+Updated: Feb 11, 2026
+
 <div class="note-block">
 Lots of Misc info below.
 </div>
-<h2 id="how-to-read-guide"><span id="how"></span>How to Read Guide</h2>
+
+## <span id="how"></span>How to Read Guide
 <ul class="custom-list bullet-list">
-<ul>
-<li>“Get” means it is a quest reward.</li>
-<li>“Buy” means you purchase it from town vendor.</li>
-<li>Links and sockets are separated meaning if something needs to be linked it will have a “+” and in its own line, otherwise it will be separated by a comma and you can socket the single gem anywhere it fits on gear.</li>
-<li>If you see a “=&quot; or &quot;or&quot; in one of the links, that means it is an alternate link.
-<ul>
-<li>For example, Link 1:<a href="gemred">Sunder</a>+<a href="gemred">Ruthless</a>+<a href="gemred">Chance to Bleed</a>=<a href="gemgreen">Momentum</a></li>
-<li>This means if you find <a href="r">RRR</a> you can use<a href="gemred">Chance to Bleed</a>or if you find <a href="r">RR</a><a href="g">G</a> use <a href="gemgreen">Momentum</a>instead.</li>
+
+- “Get” means it is a quest reward.
+- “Buy” means you purchase it from town vendor.
+- Links and sockets are separated meaning if something needs to be linked it will have a “+” and in its own line, otherwise it will be separated by a comma and you can socket the single gem anywhere it fits on gear.
+- If you see a “=" or "or" in one of the links, that means it is an alternate link.
+  - For example, Link 1:[Sunder](gemred)+[Ruthless](gemred)+[Chance to Bleed](gemred)=[Momentum](gemgreen)
+  - This means if you find <a href="r">RRR</a> you can use[Chance to Bleed](gemred)or if you find <a href="r">RR</a><a href="g">G</a> use [Momentum](gemgreen)instead.
+
 </ul>
-</li>
-</ul>
-</ul>
-<hr>
-<h2 id="melee-leveling-tips"><span id="melee"></span>Melee Leveling Tips</h2>
+
+---
+
+## <span id="melee"></span>Melee Leveling Tips
 <ul class="custom-list bullet-list">
-<ul>
-<li>Axe Recipe: White axe + <a href="b">magic</a>/<a href="y">rare</a>/<a href="npc">unique</a> + Blacksmith's Whetstone
-<ul>
-<li>Axe progression: Use 1.30 APS or 1.25 APS if no other option</li>
-<li>Stone (1) &gt; Woodsplitter (12) &gt; Poleaxe (18) &gt; Gilded (28) &gt; Headsman (45)</li>
+
+- Axe Recipe: White axe + <a href="b">magic</a>/<a href="y">rare</a>/<a href="npc">unique</a> + Blacksmith's Whetstone
+  - Axe progression: Use 1.30 APS or 1.25 APS if no other option
+  - Stone (1) > Woodsplitter (12) > Poleaxe (18) > Gilded (28) > Headsman (45)
+
 </ul>
-</li>
-</ul>
-</ul>
-<hr>
-<h2 id="gold-respecialisation-cost-table"><span id="gold"></span>Gold Respecialisation Cost Table</h2>
+
+---
+
+## <span id="gold"></span>Gold Respecialisation Cost Table
 <ul class="custom-list bullet-list">
-<ul>
-<li>Level 52-55 ideal time to swap, any more than 55 and it costs too much, see table below.</li>
-<li>Killing Act 5 and 10 Kitava does not increase cost of respec</li>
-<li>Town level does not increase cost
-<ul>
-<li>Killing A10 Kitava @ 70 = ~36211 gold</li>
-<li>Killing A10 Kitava @ 64 = ~25k gold</li>
-</ul>
-</li>
-<li><a href="https://old.reddit.com/r/pathofexile/comments/1fbh6y9/respec_with_gold_cost_per_level/">Reddit Source</a></li>
-</ul>
+
+- Level 52-55 ideal time to swap, any more than 55 and it costs too much, see table below.
+- Killing Act 5 and 10 Kitava does not increase cost of respec
+- Town level does not increase cost
+  - Killing A10 Kitava @ 70 = ~36211 gold
+  - Killing A10 Kitava @ 64 = ~25k gold
+- <a href="https://old.reddit.com/r/pathofexile/comments/1fbh6y9/respec_with_gold_cost_per_level/">Reddit Source</a>
+
 <div class="table-wrapper">
     <table>
         <tr><th>Char<br>Lvl</th><th>Respec<br>Gold/pt</th><th>Diff</th></tr>
@@ -279,18 +137,17 @@ Lots of Misc info below.
     </table>
 </div>
 </ul>
-<hr>
-<h2 id="leveling-zones"><span id="leveling"></span>Leveling Zones</h2>
+
+---
+
+## <span id="leveling"></span>Leveling Zones
 <ul class="custom-list bullet-list">
-<ul>
-<li>The levels listed below are the minimum player level for each zone. Entering a zone below these levels will result in an XP penalty.</li>
-<li>Most of the levels fall within the 100% XP gain range, some are around 80% gain until you get 1 more level, for example 23 in Docks is 76% gain &amp; at 24 its 95%.
-<ul>
-<li><a href="https://docs.google.com/spreadsheets/d/16QHW9GON-kEnLybQp6ikOY7MFbrtq75l9Tu2hYo8mC4/edit?gid=0#gid=0">PoE Experience Table</a>: check this link for full XP breakdownp</li>
+
+- The levels listed below are the minimum player level for each zone. Entering a zone below these levels will result in an XP penalty.
+- Most of the levels fall within the 100% XP gain range, some are around 80% gain until you get 1 more level, for example 23 in Docks is 76% gain & at 24 its 95%.
+  - <a href="https://docs.google.com/spreadsheets/d/16QHW9GON-kEnLybQp6ikOY7MFbrtq75l9Tu2hYo8mC4/edit?gid=0#gid=0">PoE Experience Table</a>: check this link for full XP breakdownp
 </ul>
-</li>
-</ul>
-</ul>
+
 <div class="table-wrapper">
 <table>
         <tr><th>Act</th><th>Level</th><th>Zone</th><th>Status</th></tr>
@@ -337,7 +194,9 @@ Lots of Misc info below.
         <tr><td class="char-lvl">10</td><td>58</td></tr>
 </table>
 </div>
-<hr>
+
+---
+
 <footer class="main-footer">
 <div class="footer-content">
     <div class="footer-left">
@@ -366,9 +225,6 @@ Lots of Misc info below.
 </div>
 </main>
 </div>
+
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
-            
-            
-        </body>
-        </html>
