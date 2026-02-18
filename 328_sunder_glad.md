@@ -1,0 +1,219 @@
+<div class="container">
+<nav class="sidenav" id="nav-placeholder"></nav>
+<main class="content-wrapper">
+<div class="content-inner">
+<article>
+
+# 3.28 [Gladiator] Sunder Bleed Leveling
+Updated: Feb 17, 2026
+
+<div class="note-block">
+<ul class="custom-list bullet-list">
+
+- This guide is a leveling guide for basic Sunder Bleed Glad with the intent of swapping into CWS Glad for GGG Ultimatums.
+</ul>
+</div>
+
+## <span id="pob"></span>POB Links
+
+<ul class="custom-list bullet-list">
+
+- 3.27 Guide POB: <a href="#">This Guide</a></a>
+
+</ul>
+
+---
+
+## <span id="regex"></span>REGEX
+<div class="code-container">
+    <div class="code-header">
+        <span>Gear Regex - works for full campaign</span>
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+
+```-\w-.-|r-r-r|g-[gr]-r|r-[gr]-g|g-r-g|r-g-r|Runn|s:.+ax```
+
+</div>
+
+---
+
+## <span id="a1"></span>ACT 1 PROGRESSION
+### End of Act 1: 20-23 mins - Level 12
+
+<img src="328_sunder_glad/images/act1.png">
+<ul class="custom-list bullet-list">
+
+- Starting Gems: [Double Strike](gemgreen)+[Chance to Bleed](gemred)
+- Ensure you buy [G](gemgreen)+[R](gemred) linked linked somewhere before leaving town
+</ul>
+
+### Tarkleigh
+<ul class="checklist">
+
+- [ ] Buy [Spectral Throw](gemgreen) <img src="images/wisdom.png" class="icon-inline"> *this will be your main skill for all of Act 1*
+- [ ] Buy any [G](gemgreen)+[R](gemred)linked
+- [ ] Pick up any shield and put it on off-hand for [Shield Charge](gemred) at level 4 
+
+</ul>
+
+### Hailrake
+<ul class="checklist">
+
+- [ ] Get [Quicksilver](gemgrey)
+- [ ] Get [Ruthless](gemred)or[Volley](gemgreen) 
+- This is based on if you can find links [R](gemred)[R](gemred)[G](gemgreen) or [G](gemgreen)[G](gemgreen)[R](gemred)
+- [ ] Buy [Momentum](gemgreen)<img src="images/wisdom.png" class="icon-inline">
+- [ ] Get [Shield Charge](gemred)
+- [ ] Buy [Lapis Amulet / Iron Ring](gemgrey) 3x <img src="images/wisdom.png" class="icon-inline">
+- [ ] Buy [Frostblink](gemblue)<img src="images/wisdom.png" class="icon-inline">
+  
+</ul>
+
+### Dweller
+<ul class="checklist">
+
+- [ ] Get [Faster Attacks](gemgreen)
+
+</ul>
+
+### Brutus
+<ul class="checklist">
+
+- [ ] Get [Leap Slam](gemred)
+- [ ] Buy [Intimidating Cry](gemred)<img src="images/trans.png" class="icon-inline">
+
+</ul>
+
+### Fairgraves (Enter Caverns)
+<ul class="checklist">
+
+- [ ] Buy [Sunder](gemred)<img src="images/trans.png" class="icon-inline">
+
+</ul>
+
+<div class="link-block" id="a1links">
+<ul class="checklist">
+
+### Level 1-11: Use Spectral Throw
+
+- [ ] Link 1: [Spectral Throw](gemgreen)+[Chance to Bleed](gemred)+[Ruthless](gemred) or [Momentum](gemgreen)
+
+### Level 10: Replace Shield Charge with Leap Slam
+- [ ] Link 2: [Leap Slam](gemred)+[Momentum](gemgreen)
+
+### Level 12: Mervail
+- [ ] Link 1: [Sunder](gemred)+[Chance to Bleed](gemred)+[Ruthless](gemred) or [Faster Attacks](gemgreen)
+- [ ] Link 2: [Shield Charge](gemred)+[Momentum](gemgreen)+[Faster Attacks](gemgreen)
+- [ ] Util: [Frostblink](gemblue), [Blood & Sand](gemred), [Intimidating Cry](gemred)
+
+Total Cost: 2 Transmute<img src="images/trans.png" class="icon-inline">, 3+ Wisdoms<img src="images/wisdom.png" class="icon-inline">
+</ul>
+</div>
+
+---
+
+## <span id="a2"></span>ACT 2 PROGRESSION
+### End of Act 2: 38-40 mins, Level 20
+
+<img src="328_sunder_glad/images/act2.png">
+
+ ### Fidelitas
+ <ul class="checklist">
+ 
+ - [ ] Get [Herald of Ash](gemred)
+ - [ ] Buy [Blood Rage](gemgreen)<img src="images/alt.png" class="icon-inline">
+ - [ ] Buy [Herald of Purity](gemred)<img src="images/alt.png" class="icon-inline">
+ - [ ] Buy [Lapis Amulet](gemgrey)3x<img src="images/wisdom.png" class="icon-inline">
+ </ul>
+
+### Weaver
+ <ul class="checklist">
+
+- [ ] Get [Cruelty](gemred)
+ </ul>
+
+<div class="link-block" id="a2links">
+<ul class="checklist">
+
+- [ ] Link 1: [Sunder](gemred)+[Chance to Bleed](gemred)+[Cruelty](gemred) or [Faster Attacks](gemgreen)
+- [ ] Link 2: [Leap Slam](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
+- [ ] Aura: [Herald of Ash](gemred),[Herald of Purity](gemred)
+- [ ] Util: [Frostblink](gemblue), [Intimidating Cry](gemred), [Blood Rage](gemgreen)
+
+Total Cost: 2 Alterations <img src="images/alt.png" class="icon-inline">, 3 Wisdoms <img src="images/wisdom.png" class="icon-inline">
+
+</ul>
+</div>
+
+---
+
+## <span id="a3"></span>ACT 3 PROGRESSION
+### End of Act 3: 55-60 mins, Level 28-30
+
+<img src="328_sunder_glad/images/act3.png">
+
+<div class="note-block">
+You can gamble at <a href="npc">Maramoa</a> at level 24 for 4 Links. Focus on armor since it's used for a longer time than weapons which you should always be upgrading. <a href="important">DO NOT OVER SPEND</a> as you will need gold later to respec to RF in Act 9
+<ul class="custom-list bullet-list">
+
+- 2H Axe / body armor: 145 gold each
+- Gloves / Helmet / Boots: 135 gold each <a href="important"> < BETTER OPTION</a>
+
+</ul>
+
+</div>
+
+### Piety
+<ul class="checklist">
+
+- [ ] Get [Pride](gemred)
+- [ ] Buy [Vulnerability](gemred)<img src="images/alt.png" class="icon-inline">
+
+</ul>
+
+<div class="link-block" id="a3links">
+<ul class="checklist">
+
+- [ ] Link 1: [Sunder](gemred)+[Chance to Bleed](gemred)+[Cruelty](gemred) or [Faster Attacks](gemgreen)
+- [ ] Link 2: [Leap Slam](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
+- [ ] Aura: [Herald of Ash](gemred),[Pride](gemred)
+- [ ] Util: [Frostblink](gemblue), [Intimidating Cry](gemred), [Blood Rage](gemgreen), [Vulnerability](gemred)
+
+Total Cost: 1 Alteration <img src="images/alt.png" class="icon-inline">
+
+</ul>
+</div>
+
+---
+</ul>
+<footer class="main-footer">
+<div class="footer-content">
+    <div class="footer-left">
+        <p>&copy; 2026 Muzaroni Archive</p>
+        <p class="footer-subtext">is not affiliated with or endorsed by Grinding Gear Games.</p>
+    </div>
+    <div class="footer-right">
+        <a href="#" id="back-to-top">Back to Top ↑</a>
+        <a href="https://pathofexile.com" target="_blank">Official PoE</a>
+    </div>
+</div>
+</footer>
+</div>
+</article>
+<aside class="toc-container">
+    <nav class="toc">
+        <h4>On This Page</h4>
+        <ul>
+            <li><a href="#">#</a></li>
+            <li class="sub-item"><a href="#">#</a></li>
+            <li><a href="#">#</a></li>
+        </ul>
+    </nav>
+</aside>
+</div>
+</div>
+</main>
+</div>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>

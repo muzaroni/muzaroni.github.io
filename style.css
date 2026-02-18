@@ -677,6 +677,7 @@ td {
 }
 .char-lvl {
     background-color: #1715159e;
+    border: 1px solid #171515;
     color: #ffffff;
     font-weight: bold;
 }

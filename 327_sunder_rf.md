@@ -5,7 +5,7 @@
             <article>
 <!-- START OF MAIN CONTENT -->
 
-# 3.27 Sunder Leveling into Pohx RF Swap
+# 3.27 [Chieftain] Sunder Leveling into Pohx RF Swap
 Updated: Feb 11, 2026
 
 <div class="note-block">
