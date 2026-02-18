@@ -44,7 +44,8 @@ Updated: Feb 17, 2026
 <ul class="custom-list bullet-list">
 
 - Starting Gems: [Double Strike](gemgreen)+[Chance to Bleed](gemred)
-- Ensure you buy [G](gemgreen)+[R](gemred) linked linked somewhere before leaving town
+- Starting Weapon: Keep the <a href="g">G</a>+<a href="r">R</a> sword on offhand to use for [Shield Charge](gemred)+[Momentum](gemgreen)
+- Buy a 2H weapon before you leave town but ensure you have at least a <a href="g">G</a>+<a href="r">R</a> linked linked somewhere
 </ul>
 
 ### Tarkleigh
@@ -57,6 +58,8 @@ Updated: Feb 17, 2026
 </ul>
 
 ### Hailrake
+<img src="328_sunder_glad/images/a1manaflows.png" width="350"> 
+
 <ul class="checklist">
 
 - [ ] Get [Quicksilver](gemgrey)
@@ -65,6 +68,7 @@ Updated: Feb 17, 2026
 - [ ] Buy [Momentum](gemgreen)<img src="images/wisdom.png" class="icon-inline">
 - [ ] Get [Shield Charge](gemred)
 - [ ] Buy [Lapis Amulet / Iron Ring](gemgrey) 3x <img src="images/wisdom.png" class="icon-inline">
+- You can take Mana Flows notable if you don't find [Lapis Amulet](gemgrey) to enable [Frostblink](gemblue)
 - [ ] Buy [Frostblink](gemblue)<img src="images/wisdom.png" class="icon-inline">
   
 </ul>
