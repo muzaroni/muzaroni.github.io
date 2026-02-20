@@ -35,6 +35,16 @@ Updated: Feb 17, 2026
 
 </div>
 
+<div class="code-container">
+    <div class="code-header">
+        <span>Gem Regex</span>
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+
+```sunder|momentum|Intimidating|```
+
+</div>
+
 ---
 
 ## <span id="a1"></span>ACT 1 PROGRESSION
@@ -189,6 +199,43 @@ Total Cost: 1 Alteration <img src="images/alt.png" class="icon-inline">
 </div>
 
 ---
+
+## <span id="a4"></span>ACT 4 PROGRESSION
+### End of Act 4: 1h20, Level 35
+
+<img src="327_sunder/images/act4.png">
+
+<div class="note-block">
+<ul class="custom-list bullet-list">
+
+- Do Normal Lab once you reach <a href="npc">Crystal Veins</a> waypoint
+- Take Chieftain - <a href="npc">Tasalio, Cleansing Water</a> for first ascendancy
+
+</ul>
+</div>
+
+### Malachai
+<ul class="checklist">
+
+- [ ] Get [Fist of War](gemred) replace [Cruelty](gemred) or [Close Combat](gemgreen)
+
+</ul>
+
+<div class="link-block" id="a4links">
+<ul class="checklist">
+
+- [ ] Link 1: [Sunder](gemred)+[Melee Physical Damage](gemred)+[Cruelty/Ruthless](gemred)+[Fist of War](gemred)
+- [ ] Link 2: [Leap Slam](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
+- [ ] Aura: [Herald of Ash](gemred)
+- [ ] Util: [Frostblink](gemblue), [Blood & Sand](gemred), [Intimidating Cry](gemred), [Blood Rage](gemgreen), [Vulnerability](gemred)
+
+Total Cost: None
+</ul>
+</div>
+
+---
+
+
 </ul>
 <footer class="main-footer">
 <div class="footer-content">
