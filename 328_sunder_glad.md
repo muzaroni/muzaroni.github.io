@@ -203,13 +203,13 @@ Total Cost: 1 Alteration <img src="images/alt.png" class="icon-inline">
 ## <span id="a4"></span>ACT 4 PROGRESSION
 ### End of Act 4: 1h20, Level 35
 
-<img src="327_sunder/images/act4.png">
+<img src="328_sunder_glad/images/act4.png">
 
 <div class="note-block">
 <ul class="custom-list bullet-list">
 
 - Do Normal Lab once you reach <a href="npc">Crystal Veins</a> waypoint
-- Take Chieftain - <a href="npc">Tasalio, Cleansing Water</a> for first ascendancy
+- Take Gladiator - <a href="npc">Gratuitous Violence</a> for first ascendancy
 
 </ul>
 </div>
