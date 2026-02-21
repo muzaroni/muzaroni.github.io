@@ -41,7 +41,7 @@ Updated: Feb 17, 2026
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
     </div>
 
-```sunder|momentum|Intimidating|```
+```ral thr|ruthle|sunder|ster att|amomentum|intimidat|blood rage|frostblink|purity|vulne|```
 
 </div>
 
