@@ -146,12 +146,12 @@ Lots of Misc info below.
 
 - The levels listed below are the minimum player level for each zone. Entering a zone below these levels will result in an XP penalty.
 - Most of the levels fall within the 100% XP gain range, some are around 80% gain until you get 1 more level, for example 23 in Docks is 76% gain & at 24 its 95%.
-  - <a href="https://docs.google.com/spreadsheets/d/16QHW9GON-kEnLybQp6ikOY7MFbrtq75l9Tu2hYo8mC4/edit?gid=0#gid=0">PoE Experience Table</a>: check this link for full XP breakdownp
+  - <a href="https://docs.google.com/spreadsheets/d/16QHW9GON-kEnLybQp6ikOY7MFbrtq75l9Tu2hYo8mC4/edit?gid=0#gid=0">PoE Experience Table</a>: check this link for full XP breakdown
 </ul>
 
 <div class="table-wrapper">
 <table>
-        <tr><th>Act</th><th>Level</th><th>Zone</th><th>Status</th></tr>
+        <tr><th>Act</th><th>Min Level</th><th>Zone</th><th>Status</th></tr>
         <tr><td>1</td><td class="char-lvl">3</td><td>Ledge</td><td></td></tr>
         <tr><td>1</td><td class="char-lvl">6</td><td>Lower Prison</td><td></td></tr>
         <tr><td>1</td><td class="char-lvl">7</td><td>Prisoner's Gate</td><td></td></tr>
@@ -165,8 +165,8 @@ Lots of Misc info below.
         <tr><td>4</td><td class="char-lvl">33</td><td>Ascent</td><td></td></tr>
 </table>
 <table>
-        <tr><th>Act</th><th>Level</th><th>Zone</th><th>Status</th></tr>
-        <tr><td>5</td><td class="char-lvl">34</td><td>Slave Pens</td><td></td></tr>
+        <tr><th>Act</th><th>Min Level</th><th>Zone</th><th>Status</th></tr>
+        <tr><td>5</td><td class="char-lvl">34</td><td>Slave Pens</td><td><span style="color: #07ca35;">GOOD</span></td></tr>
         <tr><td>5</td><td class="char-lvl">35</td><td>Control Blocks</td><td></td></tr>
         <tr><td>5</td><td class="char-lvl">35</td><td>Chamber of Innocence</td><td><span style="color: #07ca35;">🏠HOME</span></td></tr>
         <tr><td>6</td><td class="char-lvl">42</td><td>Southern Forest</td><td><span style="color: #07ca35;">GOOD</span></td></tr>

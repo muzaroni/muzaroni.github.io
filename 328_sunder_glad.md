@@ -189,18 +189,20 @@ You can gamble at <a href="npc">Maramoa</a> at level 24 for 4 Links. Focus on ar
 
 - [ ] Get [Pride](gemred)
 - [ ] Buy [Vulnerability](gemred)<img src="images/alt.png" class="icon-inline">
+- [ ] Buy [Haste](gemgreen) or [Purity of Elements](gemblue)<img src="images/alt.png" class="icon-inline">
+  - Buy either gem based on if you want to go fast or have better survivability, you'll need to have INT or DEX based on which you pick.
 
 </ul>
 
 <div class="link-block" id="a3links">
 <ul class="checklist">
 
-- [ ] Link 1: [Sunder](gemred)+[Chance to Bleed](gemred)+[Cruelty](gemred) or [Faster Attacks](gemgreen)
+- [ ] Link 1: [Sunder](gemred)+[Chance to Bleed](gemred)+[Melee Physical](gemred)+[Cruelty](gemred) or [Faster Attacks](gemgreen)
 - [ ] Link 2: [Leap Slam](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
-- [ ] Aura: [Herald of Ash](gemred),[Pride](gemred)
+- [ ] Aura: [Herald of Ash](gemred),[Haste](gemgreen)
 - [ ] Util: [Frostblink](gemblue), [Intimidating Cry](gemred), [Blood Rage](gemgreen), [Vulnerability](gemred)
 
-Total Cost: 1 Alteration <img src="images/alt.png" class="icon-inline">
+Total Cost: 2 Alterations <img src="images/alt.png" class="icon-inline">
 
 </ul>
 </div>
@@ -231,7 +233,7 @@ Total Cost: 1 Alteration <img src="images/alt.png" class="icon-inline">
 <div class="link-block" id="a4links">
 <ul class="checklist">
 
-- [ ] Link 1: [Sunder](gemred)+[Melee Physical Damage](gemred)+[Cruelty/Ruthless](gemred)+[Fist of War](gemred)
+- [ ] Link 1: [Sunder](gemred)+[Chance to Bleed](gemred)+[Melee Physical/Cruelty](gemred)+[Fist of War](gemred)
 - [ ] Link 2: [Leap Slam](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
 - [ ] Aura: [Herald of Ash](gemred)
 - [ ] Util: [Frostblink](gemblue), [Blood & Sand](gemred), [Intimidating Cry](gemred), [Blood Rage](gemgreen), [Vulnerability](gemred)
@@ -262,9 +264,9 @@ Total Cost: None
     <nav class="toc">
         <h4>On This Page</h4>
         <ul>
-            <li><a href="#">#</a></li>
-            <li class="sub-item"><a href="#">#</a></li>
-            <li><a href="#">#</a></li>
+            <li><a href="#">#</a>ACT 1</li>
+            <li class="sub-item"><a href="#">A1 Links</a></li>
+            <li><a href="#">#</a>ACT 2</li>
         </ul>
     </nav>
 </aside>
