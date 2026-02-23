@@ -28,9 +28,10 @@ Lots of Misc info below.
 ## <span id="melee"></span>Melee Leveling Tips
 <ul class="custom-list bullet-list">
 
-- Axe Recipe: White axe + <a href="b">magic</a>/<a href="y">rare</a>/<a href="npc">unique</a> + Blacksmith's Whetstone
-  - Axe progression: Use 1.30 APS or 1.25 APS if no other option
-  - Stone (1) > Woodsplitter (12) > Poleaxe (18) > Gilded (28) > Headsman (45)
+- Axe Recipe: White axe + <a href="b">magic</a>/<a href="y">rare</a>/<a href="npc">unique</a> Rustic Sash + Blacksmith's Whetstone
+  - Use any essence on a white rustic sash for this recipe
+  - <a href="https://www.poewiki.net/wiki/Axe#Two-handed_axes">Axe Progression</a>: Use 1.30 APS or 1.25 APS if no other option
+  - Stone Axe (1) > Woodsplitter (12) > Poleaxe (18) > Gilded (28) > Headsman (45)
 
 </ul>
 

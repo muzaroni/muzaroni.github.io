@@ -150,13 +150,13 @@ Total Cost: 3 Transmute<img src="images/trans.png" class="icon-inline">, 3+ Wisd
 ### Weaver
  <ul class="checklist">
 
-- [ ] Get [Cruelty](gemred)
+- [ ] Get [Melee Physical](gemred)
  </ul>
 
 <div class="link-block" id="a2links">
 <ul class="checklist">
 
-- [ ] Link 1: [Sunder](gemred)+[Chance to Bleed](gemred)+[Cruelty](gemred) or [Faster Attacks](gemgreen)
+- [ ] Link 1: [Sunder](gemred)+[Chance to Bleed](gemred)+[Melee Physical](gemred) or [Faster Attacks](gemgreen)
 - [ ] Link 2: [Leap Slam](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
 - [ ] Aura: [Herald of Ash](gemred),[Herald of Purity](gemred)
 - [ ] Util: [Frostblink](gemblue), [Intimidating Cry](gemred), [Blood Rage](gemgreen)
