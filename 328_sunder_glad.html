@@ -18,7 +18,8 @@
 }
 
 </style>
-            
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 <style>
@@ -165,14 +166,14 @@
         <span>Gear Regex - works for full campaign</span>
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
     </div>
-<p><code>-\w-.-|r-r-r|g-[gr]-r|r-[gr]-g|g-r-g|r-g-r|Runn|s:.+ax</code></p>
+<p><code>-\w-.-|r-r-r|g-g-r|g-r-g|r-g-g|Runn|rint|s:.+ax</code></p>
 </div>
 <div class="code-container">
     <div class="code-header">
-        <span>Gem Regex</span>
+        <span>Gem Regex (Nessa)</span>
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
     </div>
-<p><code>lapis|ral thr|ruthle|sunder|ster atta|momentum|intimidat|blood rage|frostblink|purity|vulne|haste</code></p>
+<p><code>&quot;lapis|Frostblink|sunder$|ida|^spectral throw$&quot;</code></p>
 </div>
 <hr>
 <h2 id="act-1-progression"><span id="a1"></span>ACT 1 PROGRESSION</h2>
@@ -195,14 +196,20 @@
 </ul>
 <h3 id="hailrake">Hailrake</h3>
 <img src="328_sunder_glad/images/a1manaflows.png" width="350"> 
+<div class="note-block">
+<ul class="custom-list bullet-list">
+<ul>
+<li>Keep the GR Sword you get at Hillock, equip shield and use <a href="gemgreen">Shield Charge</a>+<a href="gemgreen">Momentum</a> ASAP. Goal is to have this ready in Submerged Passage.</li>
+</ul>
+</ul>
+</div>
 <ul class="checklist">
 <ul class="contains-task-list">
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Get <a href="gemgrey">Quicksilver</a></li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Get <a href="gemred">Ruthless</a>or<a href="gemgreen">Volley</a></li>
-<li>This is based on if you can find links <a href="gemred">R</a><a href="gemred">R</a><a href="gemgreen">G</a> or <a href="gemgreen">G</a><a href="gemgreen">G</a><a href="gemred">R</a></li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Buy <a href="gemgreen">Momentum</a><img src="images/wisdom.png" class="icon-inline"></li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Get <a href="gemgreen">Momentum</a>or<a href="gemred">Ruthless</a></li>
+<li>I typically get <a href="gemgreen">Momentum</a>and buy <a href="gemred">Rutless</a> if I find RRR links</li>
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Get <a href="gemred">Shield Charge</a></li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Buy <a href="gemgrey">Lapis Amulet / Iron Ring</a> 3x <img src="images/wisdom.png" class="icon-inline"></li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Buy <a href="gemgrey">Lapis Amulet</a> <img src="images/trans.png" class="icon-inline"></li>
 <li>You can take Mana Flows notable if you don't find <a href="gemgrey">Lapis Amulet</a> to enable <a href="gemblue">Frostblink</a></li>
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Buy <a href="gemblue">Frostblink</a><img src="images/wisdom.png" class="icon-inline"></li>
 </ul>
@@ -231,6 +238,7 @@
 <h3 id="level-1-11-use-spectral-throw">Level 1-11: Use Spectral Throw</h3>
 <ul class="contains-task-list">
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Link 1: <a href="gemgreen">Spectral Throw</a>+<a href="gemred">Chance to Bleed</a>+<a href="gemred">Ruthless</a> or <a href="gemgreen">Momentum</a></li>
+<li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Link 2: <a href="gemred">Shield Charge</a>+<a href="gemred">Momentum</a></li>
 </ul>
 <h3 id="level-10-replace-shield-charge-with-leap-slam">Level 10: Replace Shield Charge with Leap Slam</h3>
 <ul class="contains-task-list">
@@ -242,7 +250,7 @@
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Link 2: <a href="gemred">Shield Charge</a>+<a href="gemgreen">Momentum</a>+<a href="gemgreen">Faster Attacks</a></li>
 <li class="task-list-item enabled"><input class="task-list-item-checkbox"type="checkbox"> Util: <a href="gemblue">Frostblink</a>, <a href="gemred">Blood &amp; Sand</a>, <a href="gemred">Intimidating Cry</a></li>
 </ul>
-<p>Total Cost: 2 Transmute<img src="images/trans.png" class="icon-inline">, 3+ Wisdoms<img src="images/wisdom.png" class="icon-inline"></p>
+<p>Total Cost: 3 Transmute<img src="images/trans.png" class="icon-inline">, 3+ Wisdoms<img src="images/wisdom.png" class="icon-inline"></p>
 </ul>
 </div>
 <hr>
@@ -367,7 +375,7 @@ You can gamble at <a href="npc">Maramoa</a> at level 24 for 4 Links. Focus on ar
 </div>
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
-            
+            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
             
         </body>
         </html>

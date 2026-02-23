@@ -31,17 +31,17 @@ Updated: Feb 17, 2026
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
     </div>
 
-```-\w-.-|r-r-r|g-[gr]-r|r-[gr]-g|g-r-g|r-g-r|Runn|s:.+ax```
+```-\w-.-|r-r-r|g-g-r|g-r-g|r-g-g|Runn|rint|s:.+ax```
 
 </div>
 
 <div class="code-container">
     <div class="code-header">
-        <span>Gem Regex</span>
+        <span>Gem Regex (Nessa)</span>
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
     </div>
 
-```lapis|ral thr|ruthle|sunder|ster atta|momentum|intimidat|blood rage|frostblink|purity|vulne|haste```
+```"lapis|Frostblink|sunder$|ida|^spectral throw$"```
 
 </div>
 
@@ -69,15 +69,19 @@ Updated: Feb 17, 2026
 
 ### Hailrake
 <img src="328_sunder_glad/images/a1manaflows.png" width="350"> 
+<div class="note-block">
+<ul class="custom-list bullet-list">
 
+- Keep the GR Sword you get at Hillock, equip shield and use [Shield Charge](gemgreen)+[Momentum](gemgreen) ASAP. Goal is to have this ready in Submerged Passage.
+</ul>
+</div>
 <ul class="checklist">
 
 - [ ] Get [Quicksilver](gemgrey)
-- [ ] Get [Ruthless](gemred)or[Volley](gemgreen) 
-- This is based on if you can find links [R](gemred)[R](gemred)[G](gemgreen) or [G](gemgreen)[G](gemgreen)[R](gemred)
-- [ ] Buy [Momentum](gemgreen)<img src="images/wisdom.png" class="icon-inline">
+- [ ] Get [Momentum](gemgreen)or[Ruthless](gemred)
+- I typically get [Momentum](gemgreen)and buy [Rutless](gemred) if I find RRR links
 - [ ] Get [Shield Charge](gemred)
-- [ ] Buy [Lapis Amulet / Iron Ring](gemgrey) 3x <img src="images/wisdom.png" class="icon-inline">
+- [ ] Buy [Lapis Amulet](gemgrey) <img src="images/trans.png" class="icon-inline">
 - You can take Mana Flows notable if you don't find [Lapis Amulet](gemgrey) to enable [Frostblink](gemblue)
 - [ ] Buy [Frostblink](gemblue)<img src="images/wisdom.png" class="icon-inline">
   
@@ -111,6 +115,7 @@ Updated: Feb 17, 2026
 ### Level 1-11: Use Spectral Throw
 
 - [ ] Link 1: [Spectral Throw](gemgreen)+[Chance to Bleed](gemred)+[Ruthless](gemred) or [Momentum](gemgreen)
+- [ ] Link 2: [Shield Charge](gemred)+[Momentum](gemred)
 
 ### Level 10: Replace Shield Charge with Leap Slam
 - [ ] Link 2: [Leap Slam](gemred)+[Momentum](gemgreen)
@@ -120,7 +125,7 @@ Updated: Feb 17, 2026
 - [ ] Link 2: [Shield Charge](gemred)+[Momentum](gemgreen)+[Faster Attacks](gemgreen)
 - [ ] Util: [Frostblink](gemblue), [Blood & Sand](gemred), [Intimidating Cry](gemred)
 
-Total Cost: 2 Transmute<img src="images/trans.png" class="icon-inline">, 3+ Wisdoms<img src="images/wisdom.png" class="icon-inline">
+Total Cost: 3 Transmute<img src="images/trans.png" class="icon-inline">, 3+ Wisdoms<img src="images/wisdom.png" class="icon-inline">
 </ul>
 </div>
 
