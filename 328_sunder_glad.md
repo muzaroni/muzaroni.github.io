@@ -54,9 +54,16 @@ Updated: Feb 17, 2026
 <ul class="custom-list bullet-list">
 
 - Starting Gems: [Double Strike](gemgreen)+[Chance to Bleed](gemred)
-- Starting Weapon: Keep the <a href="g">G</a>+<a href="r">R</a> sword on offhand to use for [Shield Charge](gemred)+[Momentum](gemgreen)
-- Buy a 2H weapon before you leave town but ensure you have at least a <a href="g">G</a>+<a href="r">R</a> linked linked somewhere
+- 
 </ul>
+<div class="note-block">
+<ul class="custom-list bullet-list">
+
+- Starting Weapon: Keep the <a href="g">G</a>+<a href="r">R</a> sword on offhand to use for [Shield Charge](gemred)+[Momentum](gemgreen). Goal is to have this ready in Submerged Passage.
+- Your weapon swap should be a 2H axe. You will be weapon swapping to traverse and damage until you get [Leap Slam](gemred)after Brutus (level 10).
+ 
+</ul>
+</div>
 
 ### Tarkleigh
 <ul class="checklist">
@@ -69,12 +76,7 @@ Updated: Feb 17, 2026
 
 ### Hailrake
 <img src="328_sunder_glad/images/a1manaflows.png" width="350"> 
-<div class="note-block">
-<ul class="custom-list bullet-list">
 
-- Keep the GR Sword you get at Hillock, equip shield and use [Shield Charge](gemgreen)+[Momentum](gemgreen) ASAP. Goal is to have this ready in Submerged Passage.
-</ul>
-</div>
 <ul class="checklist">
 
 - [ ] Get [Quicksilver](gemgrey)
