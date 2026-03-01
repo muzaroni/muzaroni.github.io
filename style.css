@@ -505,7 +505,7 @@ a[href="b"] { color: #33a1ff !important; text-decoration: none; pointer-events: 
 a[href="r"] { color: #ff3333 !important; text-decoration: none; pointer-events: none; } /* Red */
 a[href="g"] { color: #33ff33 !important; text-decoration: none; pointer-events: none; } /* Green */
 a[href="y"] { color: #fddb00 !important; text-decoration: none; pointer-events: none; } /* Yellow */
-a[href="npc"] { color: #ca6f07 !important; text-decoration: none; pointer-events: none; display: inline;white-space: normal;}/* NPC */
+a[href="npc"] { color: #5d380e !important; text-decoration: none; pointer-events: none; display: inline;white-space: normal;}/* NPC */
 
 /* Gem Styles */
 a[href="gemred"], a[href="gemgreen"], a[href="gemblue"], a[href="gemgrey"], a[href="trial"], a[href="gemquest"] {
