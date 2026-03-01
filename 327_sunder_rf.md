@@ -20,7 +20,7 @@ Updated: March 01, 2026
 
 <ul class="custom-list bullet-list">
 
-- 3.28 Guide POB: <a href="https://pobb.in/LCRsN4f96sM3">This Guide</a> <a href="r"> USE THIS</a>
+- <a href="r">3.28 Guide POB</a>: <a href="https://pobb.in/TeNqwZKhBYuk">This Guide</a> <a href="r"> USE THIS</a>
 - 3.27 CWS w/o Bloodnotch: <a href="https://pobb.in/p4B-eODjL7RV">Emiracles Starter CWS POB for reference</a>
 - 3.26 Day 2 POB: <a href="https://pobb.in/GaPzv7hRoc9y">LVL 94 Starter</a>
 - 3.26 Day 3 POB: <a href="https://pobb.in/h3DDjaATOe06">LVL 95 MB Swap</a>
