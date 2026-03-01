@@ -45,6 +45,16 @@ Updated: March 01, 2026
 
 <div class="code-container">
     <div class="code-header">
+        <span>Gear Regex - works for full campaign</span>
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    
+```r-r-|-r-r|r-.-r|g-g-r|g-r-g|r-g-g|r-r|g-r|r-g|Runn|s:.+ax```
+
+</div>
+
+<div class="code-container">
+    <div class="code-header">
         <span>Gem Regex for only Acts 1-3</span>
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
     </div>
