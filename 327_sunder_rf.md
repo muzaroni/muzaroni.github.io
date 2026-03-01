@@ -5,8 +5,8 @@
             <article>
 <!-- START OF MAIN CONTENT -->
 
-# 3.27 [Chieftain] Sunder Leveling into Pohx RF Swap
-Updated: Feb 11, 2026
+# 3.28 [Chieftain] Sunder Leveling into Pohx RF Swap
+Updated: March 01, 2026
 
 <div class="note-block">
 <ul class="custom-list bullet-list">
@@ -20,7 +20,8 @@ Updated: Feb 11, 2026
 
 <ul class="custom-list bullet-list">
 
-- 3.27 Guide POB: <a href="https://pobb.in/FkhZiFT0WE4O">This Guide</a> <a href="important"> USE THIS</a>
+- 3.28 Guide POB: <a href="https://pobb.in/LCRsN4f96sM3">This Guide</a> <a href="r"> USE THIS</a>
+- 3.27 CWS w/o Bloodnotch: <a href="https://pobb.in/p4B-eODjL7RV">Emiracles Starter CWS POB for reference</a>
 - 3.26 Day 2 POB: <a href="https://pobb.in/GaPzv7hRoc9y">LVL 94 Starter</a>
 - 3.26 Day 3 POB: <a href="https://pobb.in/h3DDjaATOe06">LVL 95 MB Swap</a>
 - 3.26 Day 5 POB: <a href="https://pobb.in/bYrTsYELAH7e">LVL 98 Dawnbreaker + Stormshroud (ailment immune)</a>
@@ -48,7 +49,7 @@ Updated: Feb 11, 2026
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
     </div>
 
-```"stbl|mida|omen|jade| pur|er att|ood r|determ|y of f"```
+```"Frostblink|Jade|ida|eter|^purity of f|od r|urity$"```
 
 </div>
 
@@ -187,11 +188,11 @@ Total Cost: 1-2 Alterations <img src="images/alt.png" class="icon-inline">, 3 Wi
 <img src="327_sunder/images/act3.png">
 
 <div class="note-block">
-You can gamble at <a href="npc">Maramoa</a> at level 24 for 4 Links. Focus on armor since it's used for a longer time than weapons which you should always be upgrading. <a href="important">DO NOT OVER SPEND</a> as you will need gold later to respec to RF in Act 9
+You can gamble at <a href="npc">Maramoa</a> at level 24 for 4 Links. Focus on armor since it's used for a longer time than weapons which you should always be upgrading. <a href="r">DO NOT OVER SPEND</a> as you will need gold later to respec to RF in Act 9
 <ul class="custom-list bullet-list">
 
 - 2H Axe / body armor: 145 gold each
-- Gloves / Helmet / Boots: 135 gold each <a href="important"> < BETTER OPTION</a>
+- Gloves / Helmet / Boots: 135 gold each <a href="r"> < BETTER OPTION</a>
 
 </ul>
 
@@ -304,7 +305,7 @@ Total Cost: 1 Transmute<img src="images/trans.png" class="icon-inline">, 1 Wisdo
 <div class="note-block">
 <ul class="custom-list bullet-list">
 
-- After killing <a href="npc">Shavronne</a> grab the <a href="important">helmet reward</a> from <a href="npc">Sin</a> in town that matches your builds armor type:
+- After killing <a href="npc">Shavronne</a> grab the <a href="r">helmet reward</a> from <a href="npc">Sin</a> in town that matches your builds armor type:
   - For Righteous Fire look for <a href="b">BBB</a><a href="r">R</a> links.
   - For Fire Trap look for <a href="g">GGG</a><a href="r">R</a> links.
 - If the reward has exactly those links, take it. It's ready to equip with your corresponding gems once you swap builds.
@@ -321,7 +322,7 @@ Total Cost: 1 Transmute<img src="images/trans.png" class="icon-inline">, 1 Wisdo
 <div class="note-block">
 <ul class="custom-list bullet-list">
 
-- After killing <a href="npc">Maligaro</a> grab the <a href="important">boot reward</a> from <a href="npc">Helena</a> in town that matches your builds armor type:
+- After killing <a href="npc">Maligaro</a> grab the <a href="r">boot reward</a> from <a href="npc">Helena</a> in town that matches your builds armor type:
   - For Righteous Fire look for <a href="b">BBB</a><a href="r">R</a> links.
   - For Fire Trap look for <a href="g">GGG</a><a href="r">R</a> links.
 - If the reward has exactly those links, take it. It's ready to equip with your corresponding gems once you swap builds.
@@ -383,7 +384,7 @@ Total Cost: 1 Transmute<img src="images/trans.png" class="icon-inline">, 1 Wisdo
 
 <div class="imp-block" id="a9links">
 <ul class="checklist">
-If you're continuing into Heist or finishing campaign it's important to buy these 9 gems to level off hand or in any open sockets or off-hand. Ensure you buy 2 Lifetaps from Act 1 so they are pre-leveled and another 2 from Act 6 to keep at level 1. If you're interested where they are used, check the Heist links below.
+If you're continuing into Heist or finishing campaign it's r to buy these 9 gems to level off hand or in any open sockets or off-hand. Ensure you buy 2 Lifetaps from Act 1 so they are pre-leveled and another 2 from Act 6 to keep at level 1. If you're interested where they are used, check the Heist links below.
 
 - [ ] Act 1: [2x Lifetap (max)](gemred)2x <img src="images/alt.png" class="icon-inline">, [Enduring Cry](gemred) <img src="images/trans.png" class="icon-inline">, [Vitality](gemred) <img src="images/trans.png" class="icon-inline">
 - [ ] Act 3: [Punishment](gemred)<img src="images/alt.png" class="icon-inline">
@@ -416,7 +417,7 @@ Try to have these links as soon as you get to BA and start doing heists. You can
 
 ## <span id="rfmap"></span>RF MAPPING LINKS
 - The RF gems are in order of importance, some gems like Swift Affliction will not work without the use of Lifetap as it adds a duration tag.
-- It will be important to buy aura gems directly from A3 so they start at Level 11. Getting Purity of Fire and Determination first is really big for survivability. 
+- It will be r to buy aura gems directly from A3 so they start at Level 11. Getting Purity of Fire and Determination first is really big for survivability. 
 - If you have enough damage or defences, you can use Haste to move faster.
 <div class="link-block" id="rfmap">
 <ul class="checklist">
