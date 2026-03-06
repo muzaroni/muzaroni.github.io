@@ -6,7 +6,7 @@
 <!-- START OF MAIN CONTENT -->
 
 # 3.28 [Chieftain] Sunder Leveling into Pohx RF Swap
-Updated: March 01, 2026
+Updated: March 05, 2026
 
 <div class="note-block">
 <ul class="custom-list bullet-list">
@@ -20,7 +20,7 @@ Updated: March 01, 2026
 
 <ul class="custom-list bullet-list">
 
-- <a href="r">3.28 Guide POB</a>: <a href="https://pobb.in/TeNqwZKhBYuk">This Guide</a> <a href="r"> USE THIS</a>
+- <a href="r">3.28 Guide POB</a>: <a href="https://pobb.in/Mte0VuKLso3C">This Guide</a> <a href="r"> USE THIS</a>
 - 3.27 CWS w/o Bloodnotch: <a href="https://pobb.in/p4B-eODjL7RV">Emiracles Starter CWS POB for reference</a>
 - 3.26 Day 2 POB: <a href="https://pobb.in/GaPzv7hRoc9y">LVL 94 Starter</a>
 - 3.26 Day 3 POB: <a href="https://pobb.in/h3DDjaATOe06">LVL 95 MB Swap</a>
@@ -45,7 +45,7 @@ Updated: March 01, 2026
 
 <div class="code-container">
     <div class="code-header">
-        <span>Gear Regex - works for full campaign</span>
+        <span>Gear Regex - A1 ONLY, useful for 2 links early</span>
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
     </div>
     
