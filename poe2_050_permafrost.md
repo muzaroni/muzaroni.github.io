@@ -6,7 +6,7 @@
 <!-- START OF MAIN CONTENT -->
 
 # 0.5 [Witchhunter] Permafrost Bolts Leveling - Pohx
-Updated: March 05, 2026
+Updated: May 05, 2026
 
 <div class="note-block">
 <ul class="custom-list bullet-list">
@@ -16,11 +16,12 @@ Updated: March 05, 2026
 </ul>
 </div>
 
-## <span id="pob"></span>POB Links
+## <span id="pob"></span>RESOURCES
 
 <ul class="custom-list bullet-list">
 
-- 
+- <a href="#">POBB.in</a> not updated yet
+- <a href="https://www.filterblade.xyz/?profile=muzaroni&saveState=75FSRY1PSN6A6F&isPreset=false&game=Poe2">FilterBlade</a> WIP
 ---
 
 ## <span id="regex"></span>REGEX
@@ -40,23 +41,33 @@ Updated: March 05, 2026
 ## <span id="a1"></span>ACT 1 PROGRESSION
 <img src="poe2_050_permafrost/images/act1.png">
 <div class="imp-block">
-Weapon swapping is very important for this build. As soon as you pick up Permafrost Bolts in town, lock your weapon to both sets by right-clicking the Weapon Set 1 indicator. Once locked, set <a href="gr">Permafrost Bolts</a> to Set 1 and <a href="gr">Fragmentation Round</a> to Set 2. Now set Permafrost in hotkey > click the hotkey to "load" > click hotkey and select Crossbow Shot I. In another hotkey click on Fragmentation > click the hotkey to "load" > click on Crossbow Shot 2. This allows you to click the two skills in sequence saving you a button press.
+Weapon swapping is very important for this build. As soon as you pick up Permafrost Bolts in town, lock your weapon to both sets by right-clicking the Weapon Set 1 indicator. Once locked, set <a href="g">Permafrost Bolts</a> to Set 1 and <a href="g">Fragmentation Round</a> to Set 2. Now set Permafrost in hotkey > click the hotkey to "load" > click hotkey and select Crossbow Shot I. In another hotkey click on Fragmentation > click the hotkey to "load" > click on Crossbow Shot 2. This allows you to click the two skills in sequence saving you a button press.
 </div>
 
-<ul class="custom-list bullet-list">
+<ul class="checklist">
 
-- Renly > Uncut Skill > [Permafrost Bolts](gemgrey)
-- Abandoned Camp > Uncut Skill > [Explosive Grenades](gemgrey)
-- Mud Burrows > Uncut Support 1 > [Ice Bite I](gemblue) put into [Permafrost Bolts](gemgrey)
-- Areagne Witch > Uncut Support 1 > [Elemental Armament I](gemred) put into [Fragmentation Rounds](gemgrey)
-- Red Vale > click "Refined Arms" for Tense Crossbow > Uncut Skill 3 (Permafrost Bolts)
-- Rotten Druid > Uncut Support 1 > [Elemental Armament I](gemred) put into [Permafrost Bolts](gemgrey)
-- Hunting Ground > Uncut Support 1 > [Concentrated Area](gemblue) put into [Fragmentation Rounds](gemgrey) after you get 1 INT node
-- Tomb of Consort Rare > Uncut Support 1 > Use later check below
-- Level 10 try to get Sturdy Crossbow base
-- King of the Mist > Uncut Spirit 1 > [Herald of Ice](gemgrey)
-  - Uncut Support 1 > [Magnified Area I](gemblue)
-  - Uncut Support 1 > [Elemental Armament I](gemred)
+### Gem upgrade order
+[Permafrost Bolts](gemgreen) > [Fragmentation Rounds](gemgreen) > [Explosive Rounds](gemred)
+<br></br>
+
+### Gemcutting order
+[Ice Bite I](gemblue) > 2 x [Elemental Armament I](gemred) > [Concentrated Area](gemblue) > [Magnified Area I](gemblue) > [Elemental Armament I](gemred)
+<br></br>
+
+### Progression
+- [ ] Talk to Renly > Uncut Skill > [Permafrost Bolts](gemgreen)
+- [ ] Abandoned Camp > Uncut Skill > [Explosive Grenades](gemred)
+- [ ] Mud Burrows > Uncut Support 1 > [Ice Bite I](gemblue) put into [Permafrost Bolts](gemgreen)
+- [ ] Areagne Witch > Uncut Support 1 > [Elemental Armament I](gemred) put into [Fragmentation Rounds](gemgreen)
+- [ ] Red Vale > click "Refined Arms" for Tense Crossbow
+- [ ] Rotten Druid > Uncut Support 1 > [Elemental Armament I](gemred) put into [Permafrost Bolts](gemgrey)
+- [ ] Hunting Ground > Uncut Support 1 > [Concentrated Area](gemblue)
+- [ ] Tomb of Consort Rare > Uncut Support 1 > Use later check below
+- [ ] Level 10 try to get Sturdy Crossbow base
+- [ ] King of the Mist > Uncut Spirit 1 > [Herald of Ice](gemblue)
+- Uncut Support 1 > [Magnified Area I](gemblue)
+- Uncut Support 1 > [Elemental Armament I](gemred)
+
 </ul>
 
 <div class="link-block" id="#a1links">
@@ -66,7 +77,7 @@ Weapon swapping is very important for this build. As soon as you pick up Permafr
 - [ ] Permafrost Bolts: [Ice Bite I](gemblue)+[Elemental Armament I](gemred)
 - [ ] Fragmentation Rounds: [Elemental Armament I](gemred)+[Concentrated Area](gemblue)
 - [ ] Herald of Ice: [Magnified Area I](gemblue)+[Elemental Armament I](gemred)
-- [ ] Explosive Grenade: No supports
+- [ ] Explosive Grenade: [Multishot I](gemgreen)+[Magnified Area I](gemblue)
 
 </ul>
 </div>
@@ -76,7 +87,7 @@ Weapon swapping is very important for this build. As soon as you pick up Permafr
 <img src="poe2_050_permafrost/images/act2.png">
 <ul class="custom-list bullet-list">
 
-- Level 22 > Uncut Skill 7 > [Freezing Mark](gemgrey)
+- Level 22 > Uncut Skill 7 > [Freezing Mark](gemblue)
 </ul>
 
 <div class="link-block" id="#a2links">
