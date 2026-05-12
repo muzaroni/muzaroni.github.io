@@ -68,7 +68,7 @@ Updated: March 05, 2026
 ## <span id="a1"></span>ACT 1 PROGRESSION
 ### End of Act 1: 20-23 mins - Level 12
 
-<img src="327_sunder/images/act1.png">
+<img src="328_sunder/images/act1.png">
 
 <ul class="custom-list bullet-list">
 
@@ -161,7 +161,7 @@ Total Cost: 1 Transmute<img src="images/trans.png" class="icon-inline">, 3+ Wisd
 ## <span id="a2"></span>ACT 2 PROGRESSION
 ### End of Act 2: 38-40 mins, Level 20
 
-<img src="327_sunder/images/act2.png">
+<img src="328_sunder/images/act2.png">
 
  ### Fidelitas
  <ul class="checklist">
@@ -195,7 +195,7 @@ Total Cost: 1-2 Alterations <img src="images/alt.png" class="icon-inline">, 3 Wi
 ## <span id="a3"></span>ACT 3 PROGRESSION
 ### End of Act 3: 55-60 mins, Level 28-30
 
-<img src="327_sunder/images/act3.png">
+<img src="328_sunder/images/act3.png">
 
 <div class="note-block">
 You can gamble at <a href="npc">Maramoa</a> at level 24 for 4 Links. Focus on armor since it's used for a longer time than weapons which you should always be upgrading. <a href="r">DO NOT OVER SPEND</a> as you will need gold later to respec to RF in Act 9
@@ -232,7 +232,7 @@ Total Cost: None
 ## <span id="a4"></span>ACT 4 PROGRESSION
 ### End of Act 4: 1h20, Level 35
 
-<img src="327_sunder/images/act4.png">
+<img src="328_sunder/images/act4.png">
 
 <div class="note-block">
 <ul class="custom-list bullet-list">
@@ -267,7 +267,7 @@ Total Cost: None
 ## <span id="a5"></span>ACT 5 PROGRESSION
 ### End of Act 5: 1h35, Level 40
 
-<img src="327_sunder/images/act5.png">
+<img src="328_sunder/images/act5.png">
 
 <div class="note-block">
 <ul class="custom-list bullet-list">
@@ -294,7 +294,7 @@ Total Cost: None
 ## <span id="a6"></span>ACT 6 PROGRESSION
 ### End of Act 6: 2h, Level 45
 
-<img src="327_sunder/images/act6.png">
+<img src="328_sunder/images/act6.png">
 
 <div class="imp-block" id="a6links">
 <ul class="checklist">
@@ -327,7 +327,7 @@ Total Cost: 1 Transmute<img src="images/trans.png" class="icon-inline">, 1 Wisdo
 ## <span id="a7"></span>ACT 7 PROGRESSION
 ### End of Act 7: 2h15, Level 49
 
-<img src="327_sunder/images/act7.png">
+<img src="328_sunder/images/act7.png">
 
 <div class="note-block">
 <ul class="custom-list bullet-list">
@@ -347,7 +347,7 @@ Total Cost: 1 Transmute<img src="images/trans.png" class="icon-inline">, 1 Wisdo
 ## <span id="a8"></span>ACT 8 PROGRESSION
 ### End of Act 8: 2h30, Level 52
 
-<img src="327_sunder/images/act8.png">
+<img src="328_sunder/images/act8.png">
 
 <div class="note-block">
 <ul class="custom-list bullet-list">
@@ -373,7 +373,7 @@ Total Cost: 1 Transmute<img src="images/trans.png" class="icon-inline">, 1 Wisdo
   
 </ul>
 </div>
-<img src="327_sunder/images/final.png">
+<img src="328_sunder/images/final.png">
 
 <div class="note-block">
 <ul class="custom-list bullet-list">
