@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@700&family=Space+Grotesk:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 :root {
-    --bg-color: #16191B;
-    --sidebar-color: #0C0E0F;
+    --bg-color: #0e1214;
+    --sidebar-color: #080b0c;
     --accent-color: #EA9215;
     --text-primary: #EEEEEE;
     --text-muted: #888;
@@ -22,7 +22,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'JetBrains Mono', system-ui, -apple-system, sans-serif;
+    font-family: 'Reddit Mono', system-ui, -apple-system, sans-serif;
     background-color: var(--bg-color);
     color: var(--text-primary);
     line-height: 1.6;
@@ -145,16 +145,21 @@ article h1 {
     margin-top: 0.5rem;         /* Ensures no gap above paragraphs */
     font-family: 'Stack Sans Headline', sans-serif; }
 article h2 { 
-    margin-bottom: 0;      /* Removes the gap after each paragraph */
+    margin-bottom: 0rem;      /* Removes the gap after each paragraph */
     font-size: 2rem;
     margin-top: 1rem;         /* Ensures no gap above paragraphs */
-    color: #22ff73;
+    color: #ffe222;
     font-family: 'Stack Sans Headline', sans-serif; }
 
 article h3 { 
-    margin-bottom: 0;      /* Removes the gap after each paragraph */
+    margin-bottom: 0.5rem;      /* Removes the gap after each paragraph */
     margin-top: 0rem;         /* Ensures no gap above paragraphs */
     font-family: 'Stack Sans Headline', sans-serif;
+}
+article h4 { 
+    margin-bottom: 0.5rem;      /* Removes the gap after each paragraph */
+    margin-top: 0rem;         /* Ensures no gap above paragraphs */
+    font-family: 'Reddit Sans', sans-serif;
 }
 
 article p { 
@@ -383,7 +388,7 @@ article p {
 .custom-list {
     padding: 0.2rem;
     margin: 0;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Reddit Mono', monospace;
     list-style: none;
 }
 .bullet-list li {
@@ -413,7 +418,7 @@ article p {
 /* --- Checkbox Styling --- */
 .checklist {
     padding: 0.3rem 0.8rem ;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Reddit Mono', monospace;
     list-style: none;
     margin: 0rem;  
     line-height: 1.4;
@@ -491,7 +496,7 @@ hr {
 }
 /* --- Gem Styling --- */
 .gems {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Reddit Mono', monospace;
   display: inline-block; /* Allows items to sit side-by-side */
   vertical-align: middle; 
   padding: 0px 4px;   
@@ -510,7 +515,7 @@ a[href="npc"] { color: #9e6e37 !important; text-decoration: none; pointer-events
 
 /* Gem Styles */
 a[href="gemred"], a[href="gemgreen"], a[href="gemblue"], a[href="gemgrey"], a[href="trial"], a[href="gemquest"] {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Reddit Mono', monospace;
   display: inline-block;
   vertical-align: middle; 
   padding: 0px 4px;   
@@ -563,7 +568,7 @@ a[href="trial"] {
   color: #64e0c1;   
 }
 .imp-block {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Reddit Mono', monospace;
   position: relative;
   background-color: transparent;
   border: 1px solid #721a1a;
@@ -591,7 +596,7 @@ a[href="trial"] {
   color: #E0E0E0;
 }
 .note-block {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Reddit Mono', monospace;
   position: relative;
   background-color: transparent;
   border: 1px solid #1a3672;
@@ -619,13 +624,13 @@ a[href="trial"] {
   color: #E0E0E0;
 }
 .link-block {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Reddit Mono', monospace;
   position: relative;
   background-color: transparent;
-  border: 1px solid #7a5608;
-  border-top: 25px solid #7a5608; /* Thick top bar */
+  border: 1px solid #331447;
+  border-top: 25px solid #331447; /* Thick top bar */
   padding: 0.2rem 1rem;
-  margin: 1.5rem 0;
+  margin: 0.5rem 0;
   border-radius: 5px;
 }
 /* The label inside the top border */
@@ -657,7 +662,7 @@ a[href="trial"] {
     border-color: #0e1011;
     padding: 2px;
     width: fit-content;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Reddit Mono', monospace;
         text-align: center;
 }
 table {
@@ -695,12 +700,12 @@ td {
     background-color: #101314; /* Slightly darker than your bg */
     border: 1px solid #3a4750;
     border-radius: 6px;
-    margin: 20px 0;
+    margin: 0.5rem 0;
     overflow: hidden;
 }
 .code-header {
-    background-color: #1a1d20;
-    padding: 8px 15px;
+    background-color: #16181a;
+    padding: 2px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -715,7 +720,7 @@ pre {
     overflow-x: auto; /* Adds scrollbar if code is too long */
 }
 code {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Reddit Mono', monospace;
     color: var(--accent-color);
     font-size: 1rem;
     white-space: pre-wrap; /* Keeps text inside the box */

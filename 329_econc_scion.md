@@ -97,7 +97,7 @@ Updated: June 26, 2026
 
 - [ ] Get [Faster Attacks](gemgreen)
 - [ ] Get [Withering Step](gemgreen)
-- [ ] Buy [Amber Amulet / Heavy Belt](gemgrey) 3x <img src="images/wisdom.png" class="icon-inline">
+- [ ] Buy [Lapis / Heavy Belt](gemgrey) 3x <img src="images/wisdom.png" class="icon-inline">
 
 </ul>
 
@@ -113,8 +113,7 @@ Updated: June 26, 2026
 
 ### Level 1-11: Use Spectral Throw
 - [ ] Link 1: [Spectral Throw](gemgreen)+[Volley](gemgreen)+[Chance to Bleed](gemred)
-- [ ] Link 2: [Sheild Charge](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
-- [ ] Aura: [Precision (1)](gemgreen)
+- [ ] Link 2: [Shield Charge](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
 - [ ] Util: [Frostblink](gemblue), [Withering Step](gemgreen), [Sniper's Mark](gemgreen)
 ### Level 12: Swap to Poisonous Concoction
 - [ ] Link 1: [Poisonous Concoction](gemgreen)+[Volley](gemgreen)+[Momentum](gemgreen)
@@ -141,7 +140,7 @@ Total Cost: 5+ Wisdoms<img src="images/wisdom.png" class="icon-inline">
 - [ ] Get [Elemental Damage with Attacks](gemred)
 </ul>
 
-### Bandits: Alira
+### Bandits: Kill All or Alira
 <ul class="checklist">
 
 - [ ] Buy [Lesser Multiple Projectiles](gemgreen) from Act 1, level off hand
@@ -152,8 +151,8 @@ Total Cost: 5+ Wisdoms<img src="images/wisdom.png" class="icon-inline">
 <ul class="checklist">
 
 - [ ] Link 1: [Poisonous Concoction](gemgreen)+[Volley](gemgreen)+[LMP](gemgreen) or [EDWA](gemred)
-- [ ] Link 2: [Sheild Charge](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
-- [ ] Aura: [Precision (1)](gemgreen), [Herald of Ash](gemred)
+- [ ] Link 2: [Shield Charge](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
+- [ ] Aura: [Herald of Ash](gemred)
 - [ ] Util: [Frostblink](gemblue), [Withering Step](gemgreen), [Sniper's Mark](gemgreen), [Blood Rage](gemgreen)
 
 Total Cost: 1 Alteration <img src="images/alt.png" class="icon-inline">, 3 Wisdoms <img src="images/wisdom.png" class="icon-inline">
@@ -164,6 +163,102 @@ Total Cost: 1 Alteration <img src="images/alt.png" class="icon-inline">, 3 Wisdo
 ## <span id="a3"></span>ACT 3 PROGRESSION
 <img src="329_econc_scion/images/act3.png">
 
+<div class="link-block" id="a3links">
+<ul class="checklist">
+
+### Level 20-29: Use Poisonous Concoction
+- [ ] Link 1: [Poisonous Concoction](gemgreen)+[Volley](gemgreen)+[LMP](gemgreen) or [EDWA](gemred)
+- [ ] Link 2: [Shield Charge](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
+- [ ] Aura: [Herald of Ash](gemred), [Haste](gemgreen) = [Purity of Elements](gemblue)
+- [ ] Util: [Frostblink](gemblue), [Sniper's Mark](gemgreen), [Blood Rage](gemgreen)
+
+### Level 20-29: Swap to Explosive Concoction
+- [ ] Link 1: [Explosive Concoction](gemgreen)+[Volley](gemgreen)+[LMP](gemgreen) = [EDWA](gemred) = [Combustion](gemblue) = [Cruelty](gemred)
+
+Total Cost: 1 Alteration <img src="images/alt.png" class="icon-inline">, 3 Wisdoms <img src="images/wisdom.png" class="icon-inline">
+</ul>
+</div>
+
+---
+
+---
+## <span id="a4"></span>ACT 4 PROGRESSION
+<img src="329_econc_scion/images/act4.png">
+
+---
+## <span id="a5"></span>ACT 5 PROGRESSION
+<img src="329_econc_scion/images/act5.png">
+
+---
+## <span id="a6"></span>ACT 6 PROGRESSION
+<img src="329_econc_scion/images/act6.png">
+
+---
+## <span id="a7"></span>ACT 7 PROGRESSION
+<img src="329_econc_scion/images/act7.png">
+
+---
+## <span id="a8"></span>ACT 8 PROGRESSION
+<img src="329_econc_scion/images/act8.png">
+
+---
+# <span id="gem"></span>GEM PROGRESSION
+
+## ACT 1
+<div class="link-block" id="a1links">
+<ul class="checklist">
+
+### Level 1-11: Use Spectral Throw
+- [ ] Link 1: [Spectral Throw](gemgreen)+[Volley](gemgreen)+[Chance to Bleed](gemred)
+- [ ] Link 2: [Shield Charge](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
+- [ ] Util: [Frostblink](gemblue), [Withering Step](gemgreen), [Sniper's Mark](gemgreen)
+### Level 12: Swap to Poisonous Concoction
+- [ ] Link 1: [Poisonous Concoction](gemgreen)+[Volley](gemgreen)+[Momentum](gemgreen)
+
+#### Alternate Links (best to worst)
+- <a href="g">G</a><a href="g">G</a><a href="r">R</a> = [Spectral Throw](gemgreen)+[Volley](gemgreen)+[Chance to Bleed](gemred)
+- <a href="g">G</a><a href="g">G</a><a href="g">G</a> = [Spectral Throw](gemgreen)+[Volley](gemgreen)+[Momentum](gemgreen)
+</ul>
+</div>
+
+## ACT 2
+<div class="link-block" id="a2links">
+<ul class="checklist">
+
+### Level 12-20: Use Poisonous Concoction
+- [ ] Link 1: [Poisonous Concoction](gemgreen)+[Volley](gemgreen)+[EDWA](gemred)
+- [ ] Link 2: [Shield Charge](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
+- [ ] Aura: [Herald of Ash](gemred)
+- [ ] Util: [Frostblink](gemblue), [Withering Step](gemgreen), [Sniper's Mark](gemgreen), [Blood Rage](gemgreen)
+
+#### Alternate Links (best to worst)
+- <a href="g">G</a><a href="g">G</a><a href="r">R</a> = [PCONC](gemgreen)+[Volley](gemgreen)+[Cruelty](gemred)
+- <a href="g">G</a><a href="g">G</a><a href="g">G</a> = [PCONC](gemgreen)+[Volley](gemgreen)+[Lesser Multi Proj](gemgreen)
+- <a href="g">G</a><a href="g">G</a><a href="b">B</a> = [PCONC](gemgreen)+[Volley](gemgreen)+[Combustion](gemblue)
+</ul>
+</div>
+
+## ACT 3
+<div class="link-block" id="a3links">
+<ul class="checklist">
+
+### Level 20-29: Use Poisonous Concoction
+- [ ] Link 1: [Poisonous Concoction](gemgreen)+[Volley](gemgreen)+[LMP](gemgreen) or [EDWA](gemred)
+- [ ] Link 2: [Shield Charge](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
+- [ ] Aura: [Herald of Ash](gemred), [Haste](gemgreen) = [Purity of Elements](gemblue)
+- [ ] Util: [Frostblink](gemblue), [Sniper's Mark](gemgreen), [Blood Rage](gemgreen)
+
+### Level 31: Swap to Explosive Concoction
+- [ ] Link 1: [Explosive Concoction](gemgreen)+[Volley](gemgreen)+[LMP](gemgreen) = [EDWA](gemred) = [Combustion](gemblue) = [Cruelty](gemred)
+
+#### Alternate Links (best to worst)
+- <a href="g">G</a><a href="g">G</a><a href="g">G</a><a href="r">R</a> = [ECONC](gemgreen)+[Volley](gemgreen)+[LMP](gemgreen)+[EDWA](gemred)
+- <a href="g">G</a><a href="g">G</a><a href="r">R</a><a href="r">R</a> = [ECONC](gemgreen)+[Volley](gemgreen)+[EDWA](gemred)+[Cruelty](gemred)
+- <a href="g">G</a><a href="g">G</a><a href="g">G</a><a href="b">B</a> = [ECONC](gemgreen)+[Volley](gemgreen)+[LMP](gemgreen)+[Combustion](gemblue)
+- <a href="g">G</a><a href="g">G</a><a href="r">R</a><a href="b">B</a> = [ECONC](gemgreen)+[Volley](gemgreen)+[EDWA](gemred)+[Combustion](gemblue)
+
+</ul>
+</div>
 
 ---
 <footer class="main-footer">
@@ -193,15 +288,14 @@ Total Cost: 1 Alteration <img src="images/alt.png" class="icon-inline">, 3 Wisdo
             <li><a href="#a3">ACT 3</a></li>
             <li class="sub-item"><a href="#a3links">A3 Links</a></li>
             <li><a href="#a4">ACT 4</a></li>
-            <li class="sub-item"><a href="#a4links">A4 Links</a></li>
             <li><a href="#a5">ACT 5</a></li>
-            <li class="sub-item"><a href="#a5links">A5 Links</a></li>
             <li><a href="#a6">ACT 6</a></li>
             <li class="sub-item"><a href="#a6links">Gems to buy in A6</a></li>
             <li><a href="#a7">ACT 7</a></li>
             <li><a href="#a8">ACT 8</a></li>
-            <li><a href="#rfheist">HEIST</a></li>
-            <li><a href="#rfmap">MAPPING</a></li>
+            <li><a href="#gem">GEM PROGRESSION</a></li>
+            <li><a href="#heist">HEIST</a></li>
+            <li><a href="#map">MAPPING</a></li>
         </ul>
     </nav>
 </aside>
