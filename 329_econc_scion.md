@@ -61,9 +61,8 @@ Updated: June 26, 2026
 ### Tarkleigh
 <ul class="checklist">
 
-- [ ] Get [Splitting Steel](gemgreen)(right gem) → Replace [Spectral Throw](gemgreen) for Mud Flats ONLY
-- Do not discard&nbsp;[Spectral Throw](gemgreen)
-- [ ] Buy [Corroded Blade](gemgrey)
+- [ ] Get [Splitting Steel](gemgreen)(right gem) → Replace [Spectral Throw](gemgreen) for Mud Flats ONLY. Do not discard&nbsp;[Spectral Throw](gemgreen)
+- [ ] Buy [Stone Axe](gemgrey)
 - [ ] Buy shield, ideally with&nbsp;<a href="g">G</a><a href="r">R</a>&nbsp;link for [Shield Charge](gemred)+[Faster Attacks](gemgreen)
 </ul>
 
@@ -73,22 +72,22 @@ Updated: June 26, 2026
 - [ ] Get [Quicksilver](trial)
 - [ ] Look for links (see below) for options.&nbsp;<a href="g">G</a><a href="g">G</a><a href="r">R</a>&nbsp;feels best, but&nbsp;<a href="g">G</a><a href="g">G</a><a href="g">G</a>&nbsp;sets you up till Act 3
 - <a href="g">G</a><a href="g">G</a><a href="r">R</a> = [Spectral Throw](gemgreen)+[Chance to Bleed](gemred)+[Volley](gemgreen) or [Momentum](gemgreen)
-- <a href="g">G</a><a href="g">G</a><a href="b">B</a> = [Spectral Throw](gemgreen)+[Prismatic Burst](gemblue)+[Volley](gemgreen) or [Momentum](gemgreen)
-- <a href="g">G</a><a href="b">B</a><a href="r">R</a> = [Spectral Throw](gemgreen)+[Prismatic Burst](gemblue)+[Chance to Bleed](gemred)
 - <a href="g">G</a><a href="g">G</a><a href="g">G</a> = [Spectral Throw](gemgreen)+[Volley](gemgreen)+[Momentum](gemgreen)
 - [ ] Buy [Amber Amulet / Iron Ring](gemgrey) 3x <img src="images/wisdom.png" class="icon-inline">
 - [ ] Get [Volley](gemgreen)
+- [ ] Get [Shield Charge](gemred)
+- [ ] Get [Decoy Totem](gemred)
+- [ ] Buy [Chance to Bleed](gemred) <img src="images/wisdom.png" class="icon-inline">
+- [ ] Buy [Frostblink](gemblue) <img src="images/wisdom.png" class="icon-inline">
+- [ ] Buy [Sniper's Mark](gemgreen) <img src="images/wisdom.png" class="icon-inline">
+- [ ] Buy [Momentum](gemgreen) <img src="images/wisdom.png" class="icon-inline">
  
 </ul>
 
 ### Dweller
 <ul class="checklist">
 
-- [ ] Get [Decoy Totem](gemred)
-- [ ] Buy [Frostblink](gemblue) <img src="images/wisdom.png" class="icon-inline">
-- [ ] Buy [Sniper's Mark](gemgreen)<img src="images/wisdom.png" class="icon-inline">
-- [ ] Buy [Momentum](gemgreen) or [Chance to Bleed](gemred)<img src="images/wisdom.png" class="icon-inline">
-- Buy the other gem you didn't get earlier
+- [ ] Buy gems if you were missing any from after Hailrake
   
 </ul>
 
@@ -97,7 +96,7 @@ Updated: June 26, 2026
 
 - [ ] Get [Faster Attacks](gemgreen)
 - [ ] Get [Withering Step](gemgreen)
-- [ ] Buy [Lapis / Heavy Belt](gemgrey) 3x <img src="images/wisdom.png" class="icon-inline">
+- [ ] Buy [Heavy Belt](gemgrey) 3x <img src="images/wisdom.png" class="icon-inline">
 
 </ul>
 
@@ -105,6 +104,7 @@ Updated: June 26, 2026
 <ul class="checklist">
 
 - [ ] Get [Poisonous Concoction](gemgreen)
+- [ ] Buy [Lesser Multiple Projectiles](gemgreen) <img src="images/trans.png" class="icon-inline">
 
 </ul>
 
@@ -116,9 +116,10 @@ Updated: June 26, 2026
 - [ ] Link 2: [Shield Charge](gemred)+[Faster Attacks](gemgreen)+[Momentum](gemgreen)
 - [ ] Util: [Frostblink](gemblue), [Withering Step](gemgreen), [Sniper's Mark](gemgreen)
 ### Level 12: Swap to Poisonous Concoction
-- [ ] Link 1: [Poisonous Concoction](gemgreen)+[Volley](gemgreen)+[Momentum](gemgreen)
-
-Total Cost: 5+ Wisdoms<img src="images/wisdom.png" class="icon-inline">
+- [ ] Link 1: [Poisonous Concoction](gemgreen)+[Volley](gemgreen)+[Momentum](gemgreen)=[LMP](gemgreen)
+- Can use&nbsp;<a href="g">Momentum</a>&nbsp;if you don't have money for&nbsp;<a href="g">LMP</a>
+  
+Total Cost: 5+ Wisdoms<img src="images/wisdom.png" class="icon-inline">, 1 Transmute <img src="images/trans.png" class="icon-inline">
 </ul>
 </div>
 
