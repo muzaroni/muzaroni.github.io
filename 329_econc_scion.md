@@ -34,7 +34,17 @@ Updated: June 26, 2026
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
     </div>
 
-```-[rgb]-.-|g-g-[gr]|g-g|g-r|r-g|nne|rint|buckler|corroded```
+```-\w-.-|g-g-r|g-[gr]-g|r-g-g|g-g|g-r|r-g|Runn|rint|corroded|stone```
+
+</div>
+
+<div class="code-container">
+    <div class="code-header">
+        <span>Gem Regex - Act 1 only</span>
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+
+```"mom|ter at|stbl|^voll|multiple proj|^pois|lapis"```
 
 </div>
 
